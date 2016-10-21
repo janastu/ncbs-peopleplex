@@ -1,0 +1,1396 @@
+﻿window.people = 
+    [
+        {
+            "name": "Obaid Siddiqi",
+            "organisation": "TIFR, TIFR Centre, NCBS",
+            "relevance": "Founding member, TIFR Molecular Biology Unit and NCBS",
+            "QR Code": "Y",
+            "Audio File": "OS_IARI-hailstorm_RESEARCH-INFLECTION.mp3",
+            "audio_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Audio/OS_IARI-hailstorm_RESEARCH-INFLECTION.mp3",
+            "audio_caption": "Obaid Siddiqi, founding member of NCBS & TIFR's molecular biology unit: Memories of a hail storm that destroyed his research at the Indian Agricultural Research Institute in the 1950s, prompting a move to Glasgow for his PhD",
+            "audio_rights": "TIFR Archives",
+            "Image File": "Profile - OS.JPG",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20OS.JPG",
+            "image_caption": "Obaid Siddiqi. 2012"
+        },
+        {
+            "name": "Zakir Hussain",
+            "organisation": "Aligarh Muslim University",
+            "relevance": "Refers O. Siddiqi to Indian Agricultural Research Institute in 1957 during his term at Aligarh Muslim University. ",
+            "Image File": "Profile - Zakir Hussain",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20Zakir%20Hussain.jpg",
+            "image_caption": "Zakir Hussain"
+        },
+        {
+            "name": "Riayat Khan",
+            "organisation": "Aligarh Muslim University",
+            "relevance": "Lecturer at Aligarh Muslim University who teaches O. Siddiqi and refers him to Indian Agricultural Research Institute in 1957",
+            "Image File": "Profile - Riayat Khan",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20Riayat%20Khan.jpg",
+            "image_caption": "Riayat Khan",
+            "image_rights": "Siddiqi Family / NCBS Archives"
+        },
+        {
+            "name": "M S Swaminathan",
+            "organisation": "Indian Agricultural Research Institute",
+            "relevance": "Suggests a National Biological Laboratory in the early 1960s; Advises O. Siddiqi to go abroad to study after Siddiqi's wheat crop got destroyed in a hailstorm; In Planning Commission that reviews and approves NCBS proposal in 1980-85",
+            "QR Code": "Y",
+            "Audio File": "swaminathan_NBL_IDENTITY-SPACE.mp3",
+            "audio_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Audio/swaminathan_NBL_IDENTITY-SPACE.mp3",
+            "audio_caption": "MS Swaminathan, member of Planning Commission in 1980: Reflecting on a 1960s proposal for a National Biological Laboratory, and seeing the TIFR-IISc joint biology centre proposal while in the Planning Commission in 1980.",
+            "audio_rights": "NCBS Archives",
+            "Image File": "Profile - MS Swaminathan",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20MS%20Swaminathan.JPG",
+            "image_caption": "MS Swaminathan"
+        },
+        {
+            "name": "Milislav Demerec",
+            "organisation": "Cold Spring Harbor",
+            "relevance": "O.Siddiqi hears his talk on bacterial genetics in Delhi in ~1956, in which Demerec introduces Guido Pontecorvo's work. Pontecorvo would become Siddiqi's PhD advisor.",
+            "Image File": "Profile - Milislav Demerec",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20Milislav%20Demerec.jpg",
+            "image_caption": "Milislav Demerec",
+            "image_rights": "Cold Spring Harbour Laboratory"
+        },
+        {
+            "name": "Guido Pontecorvo",
+            "organisation": "University of Glasgow",
+            "relevance": "PhD advisor to O. Siddiqi at Glasgow, between ~1957-61. A lifelong mentor and friend who introduces Siddiqi to a variety of researchers over the years",
+            "Image File": "Profile - Guido Pontecorvo",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20Guido%20Pontecorvo.jpg",
+            "image_caption": "Guido Pontecorvo"
+        },
+        {
+            "name": "Alan Garen",
+            "organisation": "University of Pennsyvania, Philadelphia",
+            "relevance": "Post doctoral advisor and collaborator with O.Siddiqi in Philadelphia in the early 1960s.",
+            "Image File": "Profile - Alan Garen",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20Alan%20Garen.jpg",
+            "image_caption": "Alan Garen"
+        },
+        {
+            "name": "Sydney Brenner",
+            "organisation": "MRC Laboratory of Molecular Biology, Cambridge",
+            "relevance": "Met O.Siddiqi during his PhD years, and would become a lifelong collaborator and mentor for the work at TIFR's molecular biology unit and NCBS. ",
+            "Image File": "Profile - Sydney Brenner",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20Sydney%20Brenner.jpg",
+            "image_caption": "Sydney Brenner",
+            "image_rights": "Creative Commons"
+        },
+        {
+            "name": "Seymour Benzer",
+            "organisation": "California Institute of Technology",
+            "relevance": "Works with O.Siddiqi in the late 1960s, to drive the neurobiology shift at TIFR. Would become a lifelong collaborator and mentor for the work at TIFR's molecular biology unit and NCBS. ",
+            "Image File": "Profile - Seymour Benzer",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20Seymour%20Benzer.jpg",
+            "image_caption": "Seymour Benzer",
+            "image_rights": "Creative Commons"
+        },
+        {
+            "name": "Maurice Fox",
+            "organisation": "MIT",
+            "relevance": "Collaborator with O.Siddiqi, and introduces him to Jerry Lettvin in ~1970 (a neurobiology connection) and Leo Szilard (who would connect him to Homi Bhabha) in ~1961-62.",
+            "Image File": "Profile - Maurice Fox",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20Maurice%20Fox.jpg",
+            "image_caption": "Maurice Fox",
+            "image_rights": "Creative Commons"
+        },
+        {
+            "name": "Evelyn Fox",
+            "organisation": "MIT",
+            "relevance": "Collaborator with O.Siddiqi and historian of science. Introduces O.Siddiqi in ~1961-62 to Leo Szilard (who would connect him to Homi Bhabha).",
+            "Image File": "Profile - Evelyn Fox Keller",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20Evelyn%20Fox%20Keller.jpg",
+            "image_caption": "Evelyn Fox (right). c 1960s     ",
+            "image_rights": "Courtesy of Siddiqi Family"
+        },
+        {
+            "name": "Leo Szilard",
+            "organisation": "University of Chicago / Salk Institute",
+            "relevance": "Worked in the Manhattan Project; Knew Homi Bhabha well; In 1962, he forwards Bhabha the recommendation letters for O.Siddiqi that he received from Alan Garen and Guido Pontecorvo.",
+            "Image File": "Profile - Leo Szilard",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20Leo%20Szilard.jpg",
+            "image_caption": "Leo Szilard"
+        },
+        {
+            "name": "Rustom Choksi",
+            "organisation": "Tata Trust",
+            "relevance": "Served in the Tata Trust for many decades, including in the crucial 1940s. Works with Homi Bhabha to develop a good proposal for the new institute in physics research, with suggestions on how to frame the letter to the Tata Trust. ",
+            "Image File": "Profile - Rustom Choksi",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20Rustom%20Choksi.jpg",
+            "image_caption": "Rustom Choksi",
+            "image_rights": "Tata Central Archives"
+        },
+        {
+            "name": "J R D Tata",
+            "organisation": "Tata ",
+            "relevance": "Helped found the Tata Institute for Fundamental Research in 1945, following the proposal from Homi Bhabha. Works closely with Bhabha till his death. In a 1993 TIFR Council Meeting, advocates for many autonomous national centres branching out of TIFR.",
+            "Image File": "Profile - JRD Tata",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20JRD%20Tata.jpg",
+            "image_caption": "JRD Tata"
+        },
+        {
+            "name": "A V Hill",
+            "organisation": "Royal Society ",
+            "relevance": "Upon hearing from Homi Bhabha in 1944 of the new physics insitute, Hill replied with a prescient remark. “I think you had better take biophysics under its wing, too,” he said. “I am sure many of the most important future applications of physics will be in biology.”",
+            "Image File": "Profile - AV Hill",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20AV%20Hill.jpg",
+            "image_caption": "AV Hill"
+        },
+        {
+            "name": "Homi Bhabha",
+            "organisation": "Director, TIFR, 1944-1966",
+            "relevance": "Founder, TIFR. In 1962, upon receiving a set of recommendation letters for O.Siddiqi, he hires Siddiqi to set up molecular biology in TIFR. Also shapes Siddiqi's thinking on administration of science.",
+            "Image File": "Profile - Homi Bhabha",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20Homi%20Bhabha.jpg",
+            "image_caption": "Homi Bhabha"
+        },
+        {
+            "name": "M G K Menon",
+            "organisation": "Director, TIFR, 1966-1975",
+            "relevance": "Physicist and director, TIFR between 1966-76, and an advocate for Siddiqi's research / biology centre in later years.",
+            "Image File": "Profile - MGK Menon",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20MGK%20Menon.jpg",
+            "image_caption": "MGK Menon"
+        },
+        {
+            "name": "B V Sreekantan",
+            "organisation": "Director, TIFR, 1975-1987",
+            "relevance": "Makes the instrumental push for biology centre and various national centres of TIFR  between ~1980-1987 during time as director. Mentor to NCBS staff and member of NCBS project committees during construction phase. ",
+            "Audio File": "sreekantan_1985-chandran-natl-centre_IDENTITY-INDIA.mp3",
+            "audio_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Audio/sreekantan_1985-chandran-natl-centre_IDENTITY-INDIA.mp3",
+            "audio_caption": "BV Sreekantan, former director of TIFR: The 1985 negotiations with the Planning Commission to set up national centres under TIFR to justify the scope of proposed programmes, including NCBS and GMRT.",
+            "audio_rights": "NCBS Archives",
+            "Image File": "Profile - BV Sreekantan",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20BV%20Sreekantan.jpg",
+            "image_caption": "BV Sreekantan"
+        },
+        {
+            "name": "Virendra Singh",
+            "organisation": "Director, TIFR, 1987-1997",
+            "relevance": "TIFR Director when NCBS officially starts operations in Bangalore; issued the first delegation of powers in 1992 for NCBS, paving way for considerable autonomy in the functioning of NCBS",
+            "Audio File": "virendra-singh_tifr-ncbs-duality_INSTTN-AUTONOMY.mp3",
+            "audio_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Audio/virendra-singh_tifr-ncbs-duality_INSTTN-AUTONOMY.mp3",
+            "audio_caption": "Virendra Singh, former director of TIFR: On the need for NCBS autonomy and yet defining the link to TIFR.",
+            "audio_rights": "NCBS Archives",
+            "Image File": "Profile - V Singh",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20V%20Singh.JPG",
+            "image_caption": "Virendra Singh (left)"
+        },
+        {
+            "name": "Sudhanshu Jha",
+            "organisation": "Director, TIFR, 1997-2002",
+            "relevance": "TIFR director when NCBS moves to current campus. Dean of Physics faculty when NCBS was in the proposal stage.",
+            "Audio File": "jha_west-canteen-ncbs-hatching_IDENTITY-SPACE-BIOLOGY.mp3",
+            "audio_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Audio/jha_west-canteen-ncbs-hatching_IDENTITY-SPACE-BIOLOGY.mp3",
+            "audio_caption": "Sudhanshu Jha, ex director of TIFR: On his memories of conversations with Obaid Siddiqi in TIFR's West Canteen in the 1970s. And reliving the talks on needing a space for biology",
+            "audio_rights": "NCBS Archives",
+            "Image File": "Profile - SS Jha",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20SS%20Jha.jpg",
+            "image_caption": "Sudhanshu Jha"
+        },
+        {
+            "name": "Jerry Lettvin",
+            "organisation": "MIT",
+            "relevance": "Neurophysiologist who interacts with O.Siddiqi at MIT through Maurice Fox in ~1969-70. One of the first to suggest that Siddiqi do molecular biology work on neurons",
+            "Image File": "Profile - Jerry Lettvin",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20Jerry%20Lettvin.jpg",
+            "image_caption": "Jerry Lettvin"
+        },
+        {
+            "name": "Joel Brown",
+            "organisation": "MIT",
+            "relevance": "Teaches neurobiology techniques to O.Siddiqi at MIT in ~1969-70. Part of his training in the new field, which he then introduces at TIFR and attracts a whole new line of work."
+        },
+        {
+            "name": "John Barnabas",
+            "organisation": "Ahmednagar College, Mahabaleshwar",
+            "relevance": "Barnabas and Siddiqi start the Mahabaleshwar Seminars in mid 1970s: attracts teachers and students from across the country, building an identity for both the field and the institute."
+        },
+        {
+            "name": "David Suzuki",
+            "organisation": "University of British Columbia",
+            "relevance": "Gives MIT talk on temperature-paralyzed mutants of Drosophila in ~1969. Influences O.Siddiqi to study that at Caltech with Seymour Benzer.",
+            "Image File": "Profile - David Suzuki",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20David%20Suzuki.jpg",
+            "image_caption": "David Suzuki"
+        },
+        {
+            "name": "B V Krishnamurthy",
+            "organisation": "Economist, ecological activist",
+            "relevance": "In 1980s, Karnataka govt bans land for new science institutes inside Bangalore. Krishnamurthy suggests that TIFR look for land within existing institution. One of the steps that leads to current UAS campus.",
+            "Image File": "Profile - BV Krishnamurthy",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20BV%20Krishnamurthy.jpg",
+            "image_caption": "BV Krishnamurthy, c 1950s",
+            "image_rights": "Courtesy of Sudhir Krishna"
+        },
+        {
+            "name": "Ram Naresh Singh",
+            "organisation": "TIFR",
+            "relevance": "Moves from Trombay to TIFR MBU in 1960s to be one of the early faculty members who shape the trajectory of the group. Works on bacterial genetics and then specializes in neuroanatomy over the years.",
+            "Audio File": "rnsingh_kusum-cutting-slices-1980s_RESEARCH-TOOLS.mp3",
+            "audio_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Audio/rnsingh_kusum-cutting-slices-1980s_RESEARCH-TOOLS.mp3",
+            "audio_caption": "RN Singh, early faculty member at TIFR, and Kusum Singh, his partner: Early microtome work and the technical skill behind manually cutting slices.",
+            "audio_rights": "NCBS Archives",
+            "Image File": "Profile - RN Singh",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20RN%20Singh.JPG",
+            "image_caption": "Ram Naresh Singh (right) and Kusum Singh"
+        },
+        {
+            "name": "Man Mohan Johri",
+            "organisation": "TIFR",
+            "relevance": "Hired in TIFR MBU as one of the early faculty members who shape the trajectory of the group. Works on plant developmental biology and known for work on moss funaria. Also assists in land search for NCBS in the early days.",
+            "Audio File": "mmjohri_seaweed-tifr-shores-1969_RESEARCH-PROCESS.mp3",
+            "audio_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Audio/mmjohri_seaweed-tifr-shores-1969_RESEARCH-PROCESS.mp3",
+            "audio_caption": "Man Mohan Johri, retired faculty member from TIFR: Picking up seaweed off the shores of TIFR for his early research in the late 1960s.",
+            "audio_rights": "NCBS Archives",
+            "Image File": "Profile - MMJ",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20MMJ.JPG",
+            "image_caption": "Man Mohan Johri. 2012"
+        },
+        {
+            "name": "P K Maitra",
+            "organisation": "TIFR",
+            "relevance": "First faculty hire in TIFR MBU after O.Siddiqi. Main work on yeast genetics. Big influence on many future TIFR and NCBS faculty.",
+            "Image File": "Profile - PK Maitra",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20PK%20Maitra.jpg",
+            "image_caption": "PK Maitra (first from left)"
+        },
+        {
+            "name": "M P Pitale",
+            "organisation": "TIFR",
+            "relevance": "One of Siddiqi's first two hires in the molecular biology unit. Works as a scientific officer in the group till his retirement from TIFR."
+        },
+        {
+            "name": "Bal Apte",
+            "organisation": "TIFR",
+            "relevance": "One of Siddiqi's first two hires in the molecular biology unit. First PhD student at TIFR MBU.",
+            "Image File": "Profile - Bal Apte",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20Bal%20Apte.jpg",
+            "image_caption": "Bal Apte"
+        },
+        {
+            "name": "P N Bhavsar",
+            "organisation": "TIFR",
+            "relevance": "Hired as lab assistant at TIFR MBU. Gets a masters degree while working as an assistant, and eventually publishes along with TIFR faculty. Takes up lab manager position (from Bombay) for NCBS in later years (1994)",
+            "Audio File": "bhavsar_TIFR-interview_GROWTH-HIRING.mp3",
+            "audio_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Audio/bhavsar_TIFR-interview_GROWTH-HIRING.mp3",
+            "audio_caption": "PN Bhavsar, scientific office at TIFR from the 1960s till his retirement: On his interview process at TIFR in the 1960s for the position of a lab assistant.",
+            "audio_rights": "NCBS Archives",
+            "Image File": "Profile - Bhavsar",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20Bhavsar.JPG",
+            "image_caption": "PN Bhavsar"
+        },
+        {
+            "name": "Udai Singh",
+            "organisation": "TIFR",
+            "relevance": "Early faculty hire at TIFR MBU from the 1960s, shapes the trajectory of the group. specializing in biochemistry and also a brief stint in theoretical biology in the early 1980s."
+        },
+        {
+            "name": "Umakant Kenkare",
+            "organisation": "TIFR",
+            "relevance": "Early TIFR MBU faculty (from 1965 to 1987) who works mainly on molecular enzymology and structural biochemistry. Shapes the trajectory of the group. "
+        },
+        {
+            "name": "M R Das",
+            "organisation": "TIFR",
+            "relevance": "Lead work on virology/cancer at MBU in 1970s that got wide attention. Differing science priorities and other job offers prompt departure from TIFR in the late 1970s. Virology makes a return to TIFR/NCBS much later.",
+            "Image File": "Profile - MR Das",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20MR%20Das.jpg",
+            "image_caption": "MR Das"
+        },
+        {
+            "name": "Zita Lobo",
+            "organisation": "TIFR",
+            "relevance": "Research assistant at MBU who works with PK Maitra and completes her PhD at TIFR; later faculty in the group"
+        },
+        {
+            "name": "P Babu",
+            "organisation": "TIFR",
+            "relevance": "Joins TIFR in 1961. Specializes in theoretical physics before joining the molecular biology unit in ~1973, and extensive work on C. elegans. Leaves TIFR in 1989 to start his own biotech company, which would eventually supply samples to NCBS.",
+            "Image File": "Profile - Babu",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20Babu.JPG",
+            "image_caption": "P Babu. 2012"
+        },
+        {
+            "name": "B M Udgaonkar",
+            "organisation": "TIFR",
+            "relevance": "Joins TIFR in 1949. Chair of theoretical physics group in the mid 1960s. Gets interested in problems of education and is founder of the Homi Bhabha Centre for Science Education (HBCSE) in 1974. HBCSE inspires other centres to start out of TIFR.",
+            "Image File": "Profile - BM Udgaonkar",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20BM%20Udgaonkar.jpg",
+            "image_caption": "BM Udgaonkar"
+        },
+        {
+            "name": "Vijay Sarthy",
+            "organisation": "TIFR",
+            "relevance": "Publishes paper as student with O.Siddiqi in 1970s on DNA recombination, which would be read by Veronica Rodrigues and motivate her to reach out to TIFR.",
+            "Image File": "Profile - Vijay Sarthy",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20Vijay%20Sarthy.jpg",
+            "image_caption": "Vijay Sarthy"
+        },
+        {
+            "name": "K VijayRaghavan",
+            "organisation": "TIFR, TIFR Centre, NCBS",
+            "relevance": "Cancels plans to go to Cornell after 1975 Emergency. Stays at IIT Kanpur for a masters. Then, defers plans to go for a PhD at ETH Zurich in 1977 after a tuberculosis bout. Captivated by an Obaid Siddiqi paper on neurogenetics while doing a temporary fellowship at AIIMS. Applies to TIFR for a PhD. Faculty and founding member, NCBS.",
+            "QR Code": "Y",
+            "Audio File": "vijay_AIIMS-TB-OS-paper-1975_PEOPLE-ORIGIN.mp3",
+            "audio_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Audio/vijay_AIIMS-TB-OS-paper-1975_PEOPLE-ORIGIN.mp3",
+            "audio_caption": "K VijayRaghavan, faculty member at NCBS: The path to TIFR after a chance reading of an Obaid Siddiqi paper while recuperating from tuberculosis in Delhi",
+            "audio_rights": "NCBS Archives",
+            "Image File": "Profile - Vijay",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20Vijay.JPG",
+            "image_caption": "K VijayRaghavan. 2012"
+        },
+        {
+            "name": "Veronica Rodrigues",
+            "organisation": "TIFR, NCBS",
+            "relevance": "Student in Dublin who, after reading a TIFR paper on DNA recombination in the late 1970s, moves to India for her PhD. Publishes seminal work on drosophila neurobiology with O.Siddiqi and stays on as faculty at TIFR and NCBS till she passed away prematurely in 2010",
+            "Image File": "Profile - Veronica",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20Veronica.jpg",
+            "image_caption": "Veronica Rodrigues. c 1979  "
+        },
+        {
+            "name": "K S Krishnan",
+            "organisation": "TIFR, NCBS",
+            "relevance": "After joining the BARC training School, reached out to O. Siddiqi [to work with him], who directs him to GN Ramachandran in IISc. Early faculty hire at TIFR MBU and known for his ability to bridge research across disciplines. Also known for ingenious innovations. Plays a crucial mentoring role for generations of students and faculty at TIFR and NCBS.",
+            "Image File": "Profile - KSK",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20KSK.JPG",
+            "image_caption": "KS Krishnan. 2012"
+        },
+        {
+            "name": "Sanjay Sane",
+            "organisation": "TIFR, NCBS",
+            "relevance": "Joins TIFR/NCBS as one of the first few JRFs in the early 1990s after listening to a talk by K VijayRaghavan. Joins NCBS as faculty in 2007.",
+            "QR Code": "Y",
+            "Audio File": "sanjay_tifr-veronica_EDUCATION-MENTOR.mp3",
+            "audio_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Audio/sanjay_tifr-veronica_EDUCATION-MENTOR.mp3",
+            "audio_caption": "Sanjay Sane, faculty member and former student at NCBS: Entering TIFR as a student and early interactions with Veronica Rodrigues.",
+            "audio_rights": "NCBS Archives",
+            "Image File": "Profile - Sanjay Sane",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20Sanjay%20Sane.jpg",
+            "image_caption": "Sanjay Sane",
+            "Image EXTRA WORK TO DO": "Crop, convert to jpg"
+        },
+        {
+            "name": "Champakali Ayyub",
+            "organisation": "TIFR",
+            "relevance": "Starts as an assistant at TIFR MBU, and works closely with Veronica Rodrigues and O.Siddiqi on Drosophila neurobiology, and also one of the few scientific officers who completed her PhD at TIFR. ",
+            "Audio File": "champakali_VR-sister-1980s-publishing_EDUCATION-MENTOR.mp3",
+            "audio_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Audio/champakali_VR-sister-1980s-publishing_EDUCATION-MENTOR.mp3",
+            "audio_caption": "Champakali Ayyub, scientific officer at TIFR: On the role of Veronica Rodrigues in Ayyub's career.",
+            "audio_rights": "NCBS Archives",
+            "Image File": "Profile - Champakali Ayyub",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20Champakali%20Ayyub.jpg",
+            "image_caption": "Champakali Ayyub, c 1983"
+        },
+        {
+            "name": "C N R Rao",
+            "organisation": "IISc",
+            "relevance": "Has conversations with O.Siddiqi and V. Singh on the biology centre. In 1989, he sends a letter to V. Singh inviting TIFR to set up a temporary lab at IISc while NCBS is getting built.",
+            "Audio File": "cnr_early-non-collab_GROWTH-COLLAB.mp3",
+            "audio_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Audio/cnr_early-non-collab_GROWTH-COLLAB.mp3",
+            "audio_caption": "CNR Rao, National Research Professor at JNCASR and former director, IISc: On the NCBS start-up at the TIFR Centre, IISc, while the main campus was being built.",
+            "audio_rights": "NCBS Archives",
+            "Image File": "Profile - CNR Rao",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20CNR%20Rao.JPG",
+            "image_caption": "CNR Rao"
+        },
+        {
+            "name": "Vidyanand Nanjundiah",
+            "organisation": "TIFR",
+            "relevance": "1980s faculty at TIFR MBU who works on developmental biology and a new model system for the group, slime mold. Also shapes the NCBS 1985-1990 proposal with O.Siddiqi. Helped NCBS initially in locating land in Bangalore",
+            "QR Code": "Y",
+            "Audio File": "nanjundiah_1976-80-IISc-TIFR_IDENTITY-SPACE.mp3",
+            "audio_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Audio/nanjundiah_1976-80-IISc-TIFR_IDENTITY-SPACE.mp3",
+            "audio_caption": "Vidyanand Nanjundiah, faculty member at TIFR in 1980s: On his move from IISc to TIFR, and reflections on the newly proposed (c 1981) IISc-TIFR joint centre for biology.",
+            "audio_rights": "NCBS Archives",
+            "Image File": "Profile - Nanjundiah",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20Nanjundiah.JPG",
+            "image_caption": "Vidyanand Nanjundiah. 2012"
+        },
+        {
+            "name": "Govind Swarup",
+            "organisation": "TIFR",
+            "relevance": "Leads Giant Metrewave Radio Telescope (GMRT) project. GMRT and NCBS are part of the TIFR 1985-1990 proposal and are both approved by the Planning Commission. Close associate of O. Siddiqi at TIFR, and assists in Pune land search for NCBS.",
+            "Audio File": "swarup_JRD-natl-centre_INSTTN-AUTONOMY.mp3",
+            "audio_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Audio/swarup_JRD-natl-centre_INSTTN-AUTONOMY.mp3",
+            "audio_caption": "Govind Swarup, former faculty member at TIFR: Recounting a story of a TIFR Council Meeting where JRD Tata advocated the setting up of many national centres under TIFR.",
+            "audio_rights": "NCBS Archives",
+            "Image File": "Profile - Govind Swarup",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20Govind%20Swarup.JPG",
+            "image_caption": "Govind Swarup"
+        },
+        {
+            "name": "S Ramaseshan",
+            "organisation": "Director, IISc, 1970s",
+            "relevance": "Writes a letter to O.Siddiqi in 1978 suggesting that TIFR set up a biology centre in IISc",
+            "Image File": "Profile - S Ramaseshan",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20S%20Ramaseshan.jpg",
+            "image_caption": "S Ramaseshan"
+        },
+        {
+            "name": "H Sharat Chandra",
+            "organisation": "IISc",
+            "relevance": "Major support for setting up of NCBS in Bangalore: Assists in reaching out to Govt of Karnataka and the GKVK at the highest level for allotting land to NCBS. Member of the founding Project Management Committee and Management Board.",
+            "Image File": "Profile - H Sharat Chandra",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20H%20Sharat%20Chandra.jpg",
+            "image_caption": "H Sharat Chandra"
+        },
+        {
+            "name": "T R Satish Chandran",
+            "organisation": "Karnataka government, Institute for Social and Economic Change",
+            "relevance": "Feb 1987: Upon Sharat Chandra's request, suggests a possible location in Bangalore to O.Siddiqi; Early 1991: Instrumental in clearing final government hurdle by writing to Bangalore Deputy Commissioner explaining how TIFR is legally allowed to take the land being offered by UAS.",
+            "Image File": "Profile - TR Satish Chandran",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20TR%20Satish%20Chandran.jpg",
+            "image_caption": "TR Satish Chandran"
+        },
+        {
+            "name": "M R Srinivasan",
+            "organisation": "Atomic Energy Commission",
+            "relevance": "Chairman of the Atomic Energy Commission during the time when the plans for NCBS are finalized in the early 1990s.",
+            "Image File": "Profile - MR Srinivasan",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20MR%20Srinivasan.jpg",
+            "image_caption": "MR Srinivasan"
+        },
+        {
+            "name": "K Krishnamurthy",
+            "organisation": "UAS",
+            "relevance": "Vice chancellor at UAS in 1989-92 period, when TIFR and UAS are finalizing the memorandum of undaerstanding, and when land was transferred to NCBS on long term lease."
+        },
+        {
+            "name": "P Balaram",
+            "organisation": "IISc",
+            "relevance": "PhD advisor and collaborator with KS Krishnan and MK Mathew, who were early faculty at TIFR/NCBS. Associated with IISc since the 1970s, and its Director between 2005-2014. Invaluable observor of NCBS and guide over the years. Member of founding NCBS Management Board.",
+            "Audio File": "balaram_teaching-1970s-today_EDUCATION-KNOWLEDGE.mp3",
+            "audio_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Audio/balaram_teaching-1970s-today_EDUCATION-KNOWLEDGE.mp3",
+            "audio_caption": "P Balaram, professor and ex-director, IISc: On joining as a teacher at IISc in the 1970s and views on the practice of teaching.",
+            "audio_rights": "NCBS Archives",
+            "Image File": "Profile - P Balaram",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20P%20Balaram.jpg",
+            "image_caption": "P Balaram"
+        },
+        {
+            "name": "Gaiti Hasan",
+            "organisation": "TIFR, TIFR Centre, NCBS",
+            "relevance": "Visits TIFR MBU for a brief stint in the 1970s, before joining as a research associate in the early 1980s. Moves from TIFR to be a founding faculty member of NCBS in the early 1990s.",
+            "Audio File": "gaiti_1970s-TIFR-summer_EDUCATION-KNOWLEDGE_PEOPLE-ORIGIN.mp3",
+            "audio_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Audio/gaiti_1970s-TIFR-summer_EDUCATION-KNOWLEDGE_PEOPLE-ORIGIN.mp3",
+            "audio_caption": "Gaiti Hasan, faculty member at NCBS: On a summer spent at TIFR in the 1970s, and the process of being initiated into research.",
+            "audio_rights": "NCBS Archives",
+            "Image File": "Profile - Gaiti Hasan",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20Gaiti%20Hasan.jpg",
+            "image_caption": "Gaiti Hasan",
+            "Image EXTRA WORK TO DO": "Crop, convert to jpg"
+        },
+        {
+            "name": "Sudhir Krishna",
+            "organisation": "TIFR, NCBS",
+            "relevance": "One of the first wave of faculty hires; joins in 1992. Fosters a bridge between biology and medicine.",
+            "Audio File": "Sudhir_TIFR-summer-student_PEOPLE-ORIGIN.mp3",
+            "audio_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Audio/Sudhir_TIFR-summer-student_PEOPLE-ORIGIN.mp3",
+            "audio_caption": "Sudhir Krishna, faculty member at NCBS: An early introduction to TIFR as a summer student.",
+            "audio_rights": "NCBS Archives",
+            "Image File": "Profile - Sudhir Krishna",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20Sudhir%20Krishna.jpg",
+            "image_caption": "Sudhir Krishna. 1999"
+        },
+        {
+            "name": "T M Sahadevan",
+            "organisation": "TIFR, TIFR Centre, NCBS",
+            "relevance": "Joins TIFR in the early 1970s, and navigates the administration for the mathematics, radio astronomy and finally, biological sciences groups' activities in Bangalore. Becomes an indispensable glue, especially in the early days of NCBS. ",
+            "QR Code": "Y",
+            "Audio File": "sahadevan_TIFR-1972_PEOPLE-ORIGIN.mp3",
+            "audio_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Audio/sahadevan_TIFR-1972_PEOPLE-ORIGIN.mp3",
+            "audio_caption": "TM Sahadevan, long-time administrative architect at NCBS: An early career move from Coonoor to Bangalore, and being the first person from TIFR, Bombay, to land at the TIFR Centre, IISc in the mid 1970s.",
+            "audio_rights": "NCBS Archives",
+            "Image File": "Profile - TM Sahadevan",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20TM%20Sahadevan.jpg",
+            "image_caption": "TM Sahadevan. 1998"
+        },
+        {
+            "name": "Mathew K Mathew",
+            "organisation": "TIFR, TIFR Centre, NCBS",
+            "relevance": "Founding faculty member of NCBS. Recruited after his post-doctoral work at Caltech/UCSF, where he meets Mani Ramaswami and K VijayRaghavan. Instrumental in implementing an academic curriculum on campus. Worked with the constructon team when GKVK campus was being built.",
+            "QR Code": "Y",
+            "Audio File": "Mathew_IIT-IISc_PEOPLE-ORIGIN.mp3",
+            "audio_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Audio/Mathew_IIT-IISc_PEOPLE-ORIGIN.mp3",
+            "audio_caption": "MK Mathew, faculty member at NCBS: Reflections on early education and figuring out what direction to take his life in.",
+            "audio_rights": "NCBS Archives",
+            "Image File": "Profile - MK Mathew",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20MK%20Mathew.jpg",
+            "image_caption": "MK Mathew ",
+            "Image EXTRA WORK TO DO": "Crop, convert to jpg"
+        },
+        {
+            "name": "Mitradas Panicker",
+            "organisation": "TIFR, TIFR Centre, NCBS",
+            "relevance": "One of the first wave of faculty hires; joins in 1992. Spent a summer at TIFR during Masters. Recruited after his post-doctoral work at UC Irvine and an interview with O.Siddiqi at Caltech. Worked with the construction team when the GKVK campus was being built.",
+            "QR Code": "Y",
+            "Audio File": "panic_TIFR-summer_PEOPLE-ORIGIN.mp3",
+            "audio_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Audio/panic_TIFR-summer_PEOPLE-ORIGIN.mp3",
+            "audio_caption": "Mitradas Panicker, faculty member at NCBS: An early introduction to TIFR as a summer student in PK Maitra's lab",
+            "audio_rights": "NCBS Archives",
+            "Image File": "Profile - Mitradas Panicker",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20Mitradas%20Panicker.jpg",
+            "image_caption": "Mitradas Panicker",
+            "Image EXTRA WORK TO DO": "Crop, convert to jpg"
+        },
+        {
+            "name": "Jayant Udgaonkar",
+            "organisation": "TIFR, TIFR Centre, NCBS",
+            "relevance": "Founding faculty member of NCBS. Recruited after his post-doctoral work at Stanford in the late 1980s; had also worked under PK Maitra at TIFR during college. Also plays an instrumental role later as academic dean. Worked with the construction team when the GKVK campus was being built",
+            "Audio File": "jayant_camaraderie-early_GROWTH-STARTUP.mp3",
+            "audio_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Audio/jayant_camaraderie-early_GROWTH-STARTUP.mp3",
+            "audio_caption": "Jayant Udgaonkar, faculty member at NCBS: On the importance of camaraderie in the early years of NCBS.",
+            "audio_rights": "NCBS Archives",
+            "Image File": "Profile - Jayant Udgaonkar",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20Jayant%20Udgaonkar.jpg",
+            "image_caption": "Jayant Udgaonkar",
+            "Image EXTRA WORK TO DO": "Crop, convert to jpg"
+        },
+        {
+            "name": "Mani Ramaswami",
+            "organisation": "TIFR, NCBS",
+            "relevance": "Founding faculty member of NCBS. Recruited after his work at Caltech. Now at Trinity College, with continued collaboration at NCBS.",
+            "Image File": "Profile - Mani Ramaswami",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20Mani%20Ramaswami.jpg",
+            "image_caption": "Mani Ramaswami"
+        },
+        {
+            "name": "B R Somashekar",
+            "organisation": "TIFR Centre, NCBS",
+            "relevance": "Gardener at TIFR Centre, and at NCBS. Retired in 2016. Visitors to IISc were said to comment on how much better the TIFR Centre landscaping looked compared to other centres on the IISc campus",
+            "Image File": "Profile - BR Somashekar",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20BR%20Somashekar.JPG",
+            "image_caption": "BR Somashekar (seated, third from right)"
+        },
+        {
+            "name": "N. Shanthakumary",
+            "organisation": "TIFR Centre, NCBS",
+            "relevance": "Joined TIFR Centre for work as a stenographer in 1983 and moved to NCBS after its formation. Early staff who got involved in all tasks, including accounting, office administration, scientific typing, revision of NCBS project cost and preparation of proposals. ",
+            "QR Code": "Y",
+            "Audio File": "shantha_hiring-walk-IISc_PEOPLE-ORIGIN.mp3",
+            "audio_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Audio/shantha_hiring-walk-IISc_PEOPLE-ORIGIN.mp3",
+            "audio_caption": "N Shanthakumary, early hire in NCBS administration: Memories of entering the IISc campus for the first time in the early 1980s, and being hired into the system.",
+            "audio_rights": "NCBS Archives",
+            "Image File": "Profile - N Shanthakumary",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20N%20Shanthakumary.jpg",
+            "image_caption": "N Shanthakumary (left). 1999"
+        },
+        {
+            "name": "K S Vishalakshi",
+            "organisation": "TIFR Centre, NCBS",
+            "relevance": "Joined GMRT project at TIFR Centre in a temporary daily wage position in 1986, before being hired formally in 1990. Moved to NCBS soon after its formation. Early staff who got involved in all tasks, including accounting, office administration, scientific typing, revision of NCBS project cost and preparation of proposals. ",
+            "Audio File": "vishalakshi_sci-typing_PEOPLE-ORIGIN.mp3",
+            "audio_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Audio/vishalakshi_sci-typing_PEOPLE-ORIGIN.mp3",
+            "audio_caption": "KS Vishalakshi, early NCBS hire for administration: Reflections on starting at the TIFR Centre as a daily wage worker and typing up 100s of theses for students.",
+            "audio_rights": "NCBS Archives",
+            "Image File": "Profile - KS Vishalakshi",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20KS%20Vishalakshi.jpg",
+            "image_caption": "KS Vishalakshi (second from right). 1998"
+        },
+        {
+            "name": "U B Poornima",
+            "organisation": "TIFR Centre, NCBS",
+            "relevance": "Hired as an architect for NCBS, first to realize the design of Raj Rewal's team, and then, to implement harmonious expansions of the campus.",
+            "QR Code": "Y",
+            "Audio File": "poornima_emergency-home-sci_PEOPLE-ORIGIN.mp3",
+            "audio_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Audio/poornima_emergency-home-sci_PEOPLE-ORIGIN.mp3",
+            "audio_caption": "UB Poornima, chief architect at NCBS: Early career circumstances and choosing architecture as a career.",
+            "audio_rights": "NCBS Archives",
+            "Image File": "Profile - Poornima",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20Poornima.jpg",
+            "image_caption": "UB Poornima (right). 1995"
+        },
+        {
+            "name": "R D John",
+            "organisation": "NCBS",
+            "relevance": "Retired Chief engineer with experience working in large government projects in the Department of Space, Atomic Energy. Appointed in 1990 as advisor for campus design and construction activities. Shepherded initial additions at the TIFR Centre & design and construction of NCBS. Continues to play a pro bono advisory role.",
+            "Image File": "Profile - RD John",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20RD%20John.jpg",
+            "image_caption": "RD John (first from left). 1994",
+            "image_rights": "NCBS Archives",
+            "Image EXTRA WORK TO DO": "Crop and use top photo"
+        },
+        {
+            "name": "Raj Rewal",
+            "organisation": "Raj Rewal Associates",
+            "relevance": "Hired in 1993 for NCBS design after a survey of external architects, and based on a competition. Rewal had previously designed the National Institute of Immunology, Delhi. For NCBS, his team developed a landscaped concept with terraces and interlinked courtyards.",
+            "Audio File": "rewal_rasa-NCBS_INSTTN-ARCH.mp3",
+            "audio_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Audio/rewal_rasa-NCBS_INSTTN-ARCH.mp3",
+            "audio_caption": "Raj Rewal, architect of the first phase of NCBS: Perspective on 'rasa' in architecture and his view of designing buildings for science.",
+            "audio_rights": "NCBS Archives",
+            "Image File": "Profile - Raj Rewal",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20Raj%20Rewal.jpg",
+            "image_caption": "Raj Rewal (middle)",
+            "image_rights": "NCBS Archives",
+            "Image EXTRA WORK TO DO": "Crop and use top photo"
+        },
+        {
+            "name": "Meena Srinivasan",
+            "organisation": "TIFR Centre",
+            "relevance": "Librarian at TIFR centre catering to both mathematics and biology.",
+            "Image File": "Profile - Meena Srinivasan",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20Meena%20Srinivasan.jpg",
+            "image_caption": "Meena Srinivasan"
+        },
+        {
+            "name": "Shaju Varghese",
+            "organisation": "TIFR, TIFR Centre, NCBS",
+            "relevance": "Started as canteen supervisor at TIFR in the early 1980s. Hired to NCBS at TIFR Centre in the early 1990s. Starts canteen and kitchen with one stove. Currently responsible for hospitality, canteen, hostel, guest house and security in both main and Yelahanka campuses of NCBS.",
+            "QR Code": "Y",
+            "Audio File": "shaju_childhood-labor-catering_PEOPLE-ORIGIN.mp3",
+            "audio_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Audio/shaju_childhood-labor-catering_PEOPLE-ORIGIN.mp3",
+            "audio_caption": "Shaju Varghese, hospitality/security/canteen supervisor: Reflections on a childhood in Kerala, and the connections with his work today.",
+            "audio_rights": "NCBS Archives",
+            "Image File": "Profile - Shaju Varghese",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20Shaju%20Varghese.jpg",
+            "image_caption": "Shaju Varghese (second from left). 2002",
+            "image_rights": "NCBS Archives",
+            "Image EXTRA WORK TO DO": "Crop and use top photo"
+        },
+        {
+            "name": "Jeevaraju",
+            "organisation": "TIFR Centre, NCBS",
+            "relevance": "Hired as daily wage worker to help with K VijayRaghavan's lab at the TIFR Centre. Becomes a single point contact for the lab in the early days, cleaning lab equipment, preparing fly food, help in their breeding. Is a major contractor for such services both for industry and institutions. Presently manages the lab kitchen.",
+            "Audio File": "jeevaraju_work-detail_PEOPLE-ORIGIN.mp3",
+            "audio_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Audio/jeevaraju_work-detail_PEOPLE-ORIGIN.mp3",
+            "audio_caption": "Jeevaraju, staff member in the lab kitchen: The move to NCBS in 1992, the reasons for staying and his memories of the early days at the TIFR Centre.",
+            "audio_rights": "NCBS Archives",
+            "Image File": "Profile - Jeeva",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20Jeeva.JPG",
+            "image_caption": "Jeevaraju"
+        },
+        {
+            "name": "K Madhava Raju",
+            "organisation": "TIFR Centre ",
+            "relevance": "Hired to be first lab manager for NCBS at TIFR Cente in early 1991. This was the first (temporary) post advertised from Bangalore - internal circulation in the IISc campus. Trains initial daily wage workers who continue to maintain the lab kitchen today."
+        },
+        {
+            "name": "P P Ranjith",
+            "organisation": "TIFR Centre, NCBS",
+            "relevance": "Joins NCBS in a temporary position for 6 months in 1995. Later hired as a \"JRF\" in Satyajit Mayor's group before a permanent position as lab manager. Had a major role in shifting all laboratories from TIFR Centre to the new campus. Often hailed as an indispensable glue to the functioning of the campus.",
+            "QR Code": "Y",
+            "Audio File": "ranjith_kerala-maths_PEOPLE-ORIGIN.mp3",
+            "audio_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Audio/ranjith_kerala-maths_PEOPLE-ORIGIN.mp3",
+            "audio_caption": "PP Ranjith, early hire as lab manager at NCBS: A degree in mathematics, and the circumstances behind a move from Kerala in search of a job.",
+            "audio_rights": "NCBS Archives",
+            "Image File": "Profile - PP Ranjith",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20PP%20Ranjith.jpg",
+            "image_caption": "P Ranjith. 1998"
+        },
+        {
+            "name": "T Venkatesh",
+            "organisation": "TIFR Centre",
+            "relevance": "First purchase officer for NCBS. Handled all purchase and stores activities, service contracts and for an expanding set of activities.",
+            "Image File": "Profile - T Venkatesh",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20T%20Venkatesh.jpg",
+            "image_caption": "T Venkatesh"
+        },
+        {
+            "name": "V S Shailaja",
+            "organisation": "TIFR Centre",
+            "relevance": "Assisted T Venkatesh, Purchase Officer, in all procurement, contracts in the initial days of NCBS",
+            "Image File": "Profile - VS Shailaja",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20VS%20Shailaja.jpg",
+            "image_caption": "VS Shailaja"
+        },
+        {
+            "name": "K R Gopakumar",
+            "organisation": "TIFR Centre",
+            "relevance": "First accountant hired by NCBS. In charge of accounts and assisting K A Nayar, NCBS Accounts Officer, who was also the Administrative Officer of the TIFR Centre"
+        },
+        {
+            "name": "B N R Prasanna",
+            "organisation": "TIFR Centre",
+            "relevance": "Main engineer hired by NCBS in the early 1990s. Liaision with NCBS construction project carried out by the Civil, Engineering and Services groups of the Department of Atomic Energy, Kalpakkam."
+        },
+        {
+            "name": "Avinash Shenoy",
+            "organisation": "TIFR Centre, NCBS",
+            "relevance": "The first IT systems manager at NCBS. Joined in early 1996 and remained perhaps the only IT guy for about two years. Also a time when NCBS started its push towards computational biology. Continues to be a consultant for NCBS computational needs.",
+            "Image File": "Profile - Avinash Shenoy",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20Avinash%20Shenoy.jpg",
+            "image_caption": "Avinash Shenoy"
+        },
+        {
+            "name": "P C Koteswara Rao",
+            "organisation": "DAE",
+            "relevance": "Director (Civil) and chief civil and Strucural engineer for the NCBS construction project. The work was carried out by the Civil, Engineering and Services groups of the Department of Atomic Energy, Kalpakkam, with separate Directors for both.",
+            "Image File": "Profile - PC Koteswara Rao",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20PC%20Koteswara%20Rao.jpg",
+            "image_caption": "PC Koteswara Rao (right)",
+            "image_rights": "NCBS Archives",
+            "Image EXTRA WORK TO DO": "Crop and use top photo"
+        },
+        {
+            "name": "B R Madan Mohan",
+            "organisation": "DAE",
+            "relevance": "Additional chief engineer for the NCBS construction project. Work was carried out by the Civil, Engineering and Services groups of the Department of Atomic Energy, Kalpakkam. Initially took over NCBS work in addition to main responsibility for DAE works in Mysore. Upon retirement, moved full time to NCBS and stayed till completion of the project."
+        },
+        {
+            "name": "G K Madhava Rao",
+            "organisation": "DAE",
+            "relevance": "Engineer in charge for all construction activities for the NCBS construction project. Among the senior-most engineers based at site. The work was carried out by the Civil, Engineering and Services groups of the Department of Atomic Energy, Kalpakkam."
+        },
+        {
+            "name": "S Shivaji Rao",
+            "organisation": "DAE",
+            "relevance": "Structural design engineer for the entire NCBS construction project. The work was carried out by the Civil, Engineering and Services groups of the Department of Atomic Energy, Kalpakkam."
+        },
+        {
+            "name": "G Ravi Shankar",
+            "organisation": "DAE",
+            "relevance": "One of the main civil engineers for the NCBS construction project. In charge of residential/dining areas. The work was carried out by the Civil, Engineering and Services groups of the Department of Atomic Energy, Kalpakkam. He continued briefly as Engineer in Charge for the Mandara campus. "
+        },
+        {
+            "name": "N S Srinivasan",
+            "organisation": "DAE",
+            "relevance": "Electrical engineering, both design and supervision, for the NCBS construction project carried out by the Civil, Engineering and Services groups of the Department of Atomic Energy, Kalpakkam."
+        },
+        {
+            "name": "K Venkataraman",
+            "organisation": "DAE",
+            "relevance": "Director of Engineering & Services group, which took care of design/supervision of all electrical/HVAC work for the NCBS construction project carried out by the Civil, Engineering and Services groups of the Department of Atomic Energy, Kalpakkam."
+        },
+        {
+            "name": "B Krishnamurthy",
+            "organisation": "DAE",
+            "relevance": "Main electrical engineer at site for execution of HVAC for the NCBS construction project. It was carried out by the Civil, Engineering and Services groups of the Department of Atomic Energy, Kalpakkam."
+        },
+        {
+            "name": "K A Nayar",
+            "organisation": "TIFR Centre",
+            "relevance": "Main administrative officer at TIFR Centre and first Accounts Officer of NCBS. Staff who worked for the mathematics group also started working for the new biology group that shared the TIFR Centre.",
+            "Image File": "Profile - KA Nayar",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20KA%20Nayar.jpg",
+            "image_caption": "KA Nayar"
+        },
+        {
+            "name": "H R R Siddappa",
+            "organisation": "TIFR Centre",
+            "relevance": "Attended to all electrical maintenance needs at TIFR Centre, including additions for new NCBS labs. Using the TIFR Centre workshop, he and N. Pandian built the first round of laboratory tables with provision for electrical points, wash basins, and any new additions."
+        },
+        {
+            "name": "N Pandian",
+            "organisation": "TIFR Centre",
+            "relevance": "Was the point person for all sorts of maintenance issues at the TIFR Centre, especially with the new NCBS labs: plumbing, welding, fixing tables, creating partitions for labs."
+        },
+        {
+            "name": "P M Rathnakaran",
+            "organisation": "TIFR Centre, NCBS",
+            "relevance": "One of the two main drivers at the TIFR Centre in the early 1990s. Moved to the new campus as the driver for the sole vehicle NCBS possessed at the time. Continues to be associated with NCBS.",
+            "Image File": "Profile - Rathnakaran",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20Rathnakaran.jpg",
+            "image_caption": "PM Rathnakaran (2nd row, first from left)"
+        },
+        {
+            "name": "K Sankaranarayanan",
+            "organisation": "TIFR",
+            "relevance": "Registrar at TIFR when the NCBS project was approved.  Worked closely with O. Siddiqi, V. Singh & DAE. Supported in preparation and processing of project report, initial sanction orders, GKVK MoU approval, and later, first delegation orders that gave considerable autonomy to NCBS Centre Director."
+        },
+        {
+            "name": "H Krishnamurthy",
+            "organisation": "IISc, NCBS",
+            "relevance": "As a researcher in NR Moudgal's group at IISc with expertise in flow cytometry, he assists some of the early work at the TIFR Centre. In the early 2000s, joins NCBS to set up an operator free facility for flow cytometry and imaging.",
+            "Audio File": "krishnamurthy_student-dead-cells_INTERSECTION-SOCIETY.mp3",
+            "audio_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Audio/krishnamurthy_student-dead-cells_INTERSECTION-SOCIETY.mp3",
+            "audio_caption": "H Krishnamurthy, scientific officer and head of imaging/cytometry, NCBS: Narrating interactions with school students who come to NCBS and the exposure to science early in their lives. ",
+            "audio_rights": "NCBS Archives",
+            "Image File": "Profile - H Krishnamurthy",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20H%20Krishnamurthy.jpg",
+            "image_caption": "H Krishnamurthy"
+        },
+        {
+            "name": "Ritu Khurana / Bhavana Shivu",
+            "organisation": "NCBS",
+            "relevance": "First PhD student at NCBS. Worked with Jayant Udgaonkar, starting off first at TIFR and then moving to NCBS, much before anyone else."
+        },
+        {
+            "name": "Subhendu Sett ",
+            "organisation": "NCBS",
+            "relevance": "One of the first few PhD students at NCBS. Worked with MK Mathew."
+        },
+        {
+            "name": "Utpal Nath",
+            "organisation": "NCBS",
+            "relevance": "One of the first few PhD students at NCBS. Worked with Jayant Udgaonkar, and now faculty at IISc."
+        },
+        {
+            "name": "Preeta Guptan",
+            "organisation": "NCBS",
+            "relevance": "One of the first few PhD students at NCBS. Worked with MM Panicker."
+        },
+        {
+            "name": "Anuradha Sehgal",
+            "organisation": "NCBS",
+            "relevance": "One of the first few PhD students at NCBS. Worked with MM Panicker."
+        },
+        {
+            "name": "Raghu Padinjat",
+            "organisation": "NCBS",
+            "relevance": "One of the first few PhD students at NCBS. Worked with Gaiti Hasan. Now, a faculty member at NCBS."
+        },
+        {
+            "name": "Vishwas Agashe",
+            "organisation": "NCBS",
+            "relevance": "One of the first few PhD students at NCBS. Worked with Jayant Udgaonkar."
+        },
+        {
+            "name": "Baron Chanda",
+            "organisation": "NCBS",
+            "relevance": "One of the first few PhD students at NCBS. Worked with MK Mathew. Now a faculty at the University of Wisconsin Madison"
+        },
+        {
+            "name": "Vinay Tergaonkar",
+            "organisation": "NCBS",
+            "relevance": "One of the first few PhD students at NCBS. Worked with Sudhir Krishna. Now at Institute of Molecular and Cell Biology, Singapore."
+        },
+        {
+            "name": "R Annapoorni",
+            "organisation": "NCBS",
+            "relevance": "One of the first few PhD students at NCBS. Worked with Sudhir Krishna. Now faculty at IISc."
+        },
+        {
+            "name": "Suma Sundaresan",
+            "organisation": "NCBS",
+            "relevance": "One of the first post doctoral researchers at NCBS. Worked with MM Panicker."
+        },
+        {
+            "name": "Sumita A Anant",
+            "organisation": "NCBS",
+            "relevance": "One of the first few PhD students at NCBS. Worked with K VijayRaghavan"
+        },
+        {
+            "name": "Betty Bagyam",
+            "organisation": "NCBS",
+            "relevance": "One of the first teacher trainees hired at NCBS. Worked with Sudhir Krishna. Now at St Josephs College, and continues to be a connect with the college and NCBS."
+        },
+        {
+            "name": "Sudipto Roy",
+            "organisation": "NCBS",
+            "relevance": "One of the first few PhD students at NCBS. Worked with K VijayRaghavan"
+        },
+        {
+            "name": "L S Shashidhara",
+            "organisation": "NCBS",
+            "relevance": "One of the first few post doctoral hires for NCBS, starting in early 1993. Works with K VijayRaghavan. An early hands-free approach at NCBS allows him to apply for central government grants. Also now on NCBS board.",
+            "Audio File": "shashi_post-doc-grant_GROWTH-STARTUP.mp3",
+            "audio_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Audio/shashi_post-doc-grant_GROWTH-STARTUP.mp3",
+            "audio_caption": "L Shashidhara, early post-doctoral researcher at NCBS, faculty at IISER: Start-up days at NCBS in the mid 1990s and an ability to apply for grants independently.",
+            "audio_rights": "NCBS Archives",
+            "Image File": "Profile - LS Shashidhara",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20LS%20Shashidhara.jpg",
+            "image_caption": "LS Shashidhara"
+        },
+        {
+            "name": "Anindya Sinha",
+            "organisation": "NCBS",
+            "relevance": "One of the first few post doctoral hires for NCBS, starting in early 1993. Works with K VijayRaghavan. Would later be instrumental, along with Ajith Kumar, in bringing the MSc wildlife program into NCBS. This, in turn, attracts the attention of faculty in ecology."
+        },
+        {
+            "name": "Anita Hate",
+            "organisation": "NCBS",
+            "relevance": "Possibly the first JRF at NCBS. Worked with Jayant Udgaonkar."
+        },
+        {
+            "name": "B V Shyamala",
+            "organisation": "NCBS",
+            "relevance": "One of the first few post doctoral hires for NCBS, starting in early 1992. Works with K VijayRaghavan. "
+        },
+        {
+            "name": "Manisha Sinha",
+            "organisation": "NCBS",
+            "relevance": "One of the first few JRFs at NCBS. Worked with Gaiti Hasan"
+        },
+        {
+            "name": "Srikala Raghavan",
+            "organisation": "NCBS",
+            "relevance": "One of the first few JRFs at NCBS. Worked with K VijayRaghavan. Now faculty at InStem"
+        },
+        {
+            "name": "Nirupama Deshpande",
+            "organisation": "NCBS",
+            "relevance": "One of the first few JRFs at NCBS. Worked with Sudhir Krishna"
+        },
+        {
+            "name": "K Venkatesh",
+            "organisation": "NCBS",
+            "relevance": "One of the first few JRFs at NCBS. Worked with Gaiti Hasan"
+        },
+        {
+            "name": "B R Krishan",
+            "organisation": "NCBS",
+            "relevance": "One of the first batch of JRFs at NCBS, in Jayant Udgaonkar's group. Now associated with K VijayRaghavan's group."
+        },
+        {
+            "name": "Apurva Sarin",
+            "organisation": "NCBS",
+            "relevance": "One of the first 12 faculty hires at NCBS. Dean, inStem.",
+            "Image File": "Profile - Apurva Sarin",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20Apurva%20Sarin.jpg",
+            "image_caption": "Apruva Sarin"
+        },
+        {
+            "name": "N Muralidhar",
+            "organisation": "TIFR Centre",
+            "relevance": "Administrative Officer at TIFR Centre. Coordinated with Govt of Karnataka for NCBS land in GKVK campus. Help set up first laboratory for K. VijayRaghavan. After his transfer to Hyderabad, K.A. Nayar would take over his duties."
+        },
+        {
+            "name": "T N N Unni",
+            "organisation": "TIFR Centre",
+            "relevance": "Assisted in general administration of NCBS, including correspondence, leave sanction/record, security and procurement, till a regular Purchase Officer joined for NCBS-specific work at the TIFR Centre."
+        },
+        {
+            "name": "V Ranganathan",
+            "organisation": "DAE",
+            "relevance": "First Civil Engineer deputed by DAE construction group from Mumbai. Did the spot level surveys for the land in GKVK, helped with modifications and additions of building and facilities at the TIFR Centre"
+        },
+        {
+            "name": "N K Keshavamurthy",
+            "organisation": "DAE",
+            "relevance": "First Civil Engineer deputed by DAE Construction Group from Kalpakkam. Involved with work on boundary walls, underground sumps and first substation."
+        },
+        {
+            "name": "P Desaiah",
+            "organisation": "TIFR ",
+            "relevance": "Appointed on a short term basis under GMRT project at TIFR Centre. Moved to regular position around the NCBS approval time in 1990 as an all-purpose helper for the running of the new Centre. Remained with the Maths group when NCBS moved to GKVK campus."
+        },
+        {
+            "name": "Shobhona Sharma",
+            "organisation": "TIFR",
+            "relevance": "Joins TIFR as a PhD student in the mid 1970s, and then again, as faculty in the late 1980s. Current chair of the Department of Biological Sciences at TIFR.",
+            "Audio File": "shobhona_TIFR-emergency-no-effect_RIPPLE-ISOLATION.mp3",
+            "audio_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Audio/shobhona_TIFR-emergency-no-effect_RIPPLE-ISOLATION.mp3",
+            "audio_caption": "Shobhona Sharma, former student and current faculty member, TIFR: The relative immunity of being at TIFR in the face of external turbulences like the Emergency.",
+            "audio_rights": "NCBS Archives",
+            "Image File": "Profile - Shobhona",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20Shobhona.JPG",
+            "image_caption": "Shobhona Sharma. 2012"
+        },
+        {
+            "name": "Rudra Naik",
+            "organisation": "TIFR Centre, NCBS",
+            "relevance": "Moved to Bangalore in search of work and joined as assistant cook at TIFR Centre. Managed cafeteria for 8 yrs, knowing every person's beverage preference. Now part of guest house hopsitality staff.",
+            "Audio File": "rudra_cafeteria-familiarity_PEOPLE-ORIGIN_INTERSECTION-STAFF.mp3",
+            "audio_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Audio/rudra_cafeteria-familiarity_PEOPLE-ORIGIN_INTERSECTION-STAFF.mp3",
+            "audio_caption": "Rudra Naik, caretaker at the NCBS guesthouse: Memories of building a relationship with students and faculty at the old cafeteria in the early 2000s.",
+            "audio_rights": "NCBS Archives",
+            "Image File": "Profile - Rudra Naik",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20Rudra%20Naik.JPG",
+            "image_caption": "Rudra Naik"
+        },
+        {
+            "name": "Mukund Thattai",
+            "organisation": "NCBS",
+            "relevance": "Faculty",
+            "Audio File": "Mukund_Father-factory_PEOPLE-ORIGIN.mp3",
+            "audio_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Audio/Mukund_Father-factory_PEOPLE-ORIGIN.mp3",
+            "audio_caption": "Mukund Thattai, a 'Young Investigator' NCBS hire and current faculty member: Early childhood, a short history extract and a unique engineering project.",
+            "audio_rights": "NCBS Archives",
+            "Image File": "Profile - Mukund Thattai",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20Mukund%20Thattai.jpg",
+            "image_caption": "Mukund Thattai",
+            "Image EXTRA WORK TO DO": "Crop, convert to jpg"
+        },
+        {
+            "name": "K S Madhumala",
+            "organisation": "NCBS",
+            "relevance": "Post-doctoral researcher",
+            "Audio File": "Madhumala_VR-labnote-hire_EDUCATION-MENTOR.mp3",
+            "audio_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Audio/Madhumala_VR-labnote-hire_EDUCATION-MENTOR.mp3",
+            "audio_caption": "KS Madhumala, post doctoral researcher at NCBS: Reflections on maintaining lab notes and why she felt got hired as a student.",
+            "audio_rights": "NCBS Archives",
+            "Image File": "Profile - KS Madhumala",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20KS%20Madhumala.jpg",
+            "image_caption": "KS Madhumala"
+        },
+        {
+            "name": "Sumantra Chattarji",
+            "organisation": "NCBS",
+            "relevance": "One of the first 12 faculty hires at NCBS",
+            "Audio File": "shona_shantiniketan-obaid_PEOPLE-ORIGIN.mp3",
+            "audio_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Audio/shona_shantiniketan-obaid_PEOPLE-ORIGIN.mp3",
+            "audio_caption": "Sumantra Chattarji, faculty member at NCBS: Growing up in Shantiniketan, a switch from physics to biology, and an early encounter with Obaid Siddiqi.",
+            "audio_rights": "NCBS Archives",
+            "Image File": "Profile - Sumantra Chattarji",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20Sumantra%20Chattarji.jpg",
+            "image_caption": "Sumantra Chattarji. 1999"
+        },
+        {
+            "name": "Upinder Bhalla",
+            "organisation": "NCBS",
+            "relevance": "One of the first 12 faculty hires at NCBS",
+            "Audio File": "upi_OS-meet-bio-hate_EDUCATION-KNOWLEDGE.mp3",
+            "audio_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Audio/upi_OS-meet-bio-hate_EDUCATION-KNOWLEDGE.mp3",
+            "audio_caption": "Upinder Bhalla, faculty member at NCBS: A childhood encounter with Obaid Siddiqi, and an early dislike for biology.",
+            "audio_rights": "NCBS Archives",
+            "Image File": "Profile - Upinder Bhalla",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20Upinder%20Bhalla.jpg",
+            "image_caption": "Upinder Bhalla. 1999"
+        },
+        {
+            "name": "Deepti Trivedi",
+            "organisation": "NCBS",
+            "relevance": "Technology scientist; former student",
+            "Audio File": "deepti_school-college-ncbs_EDUCATION-KNOWLEDGE_RIPPLE-TOLL.mp3",
+            "audio_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Audio/deepti_school-college-ncbs_EDUCATION-KNOWLEDGE_RIPPLE-TOLL.mp3",
+            "audio_caption": "Deepti Trivedi, technology scientist at NCBS and former student: On the move from Delhi University to NCBS for graduate work and a feeling of being overwhelmed.",
+            "audio_rights": "NCBS Archives",
+            "Image File": "Profile - Deepti Trivedi",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20Deepti%20Trivedi.jpg",
+            "image_caption": "Deepti Trivedi"
+        },
+        {
+            "name": "Aditi Bhattacharya",
+            "organisation": "NCBS",
+            "relevance": "Research scientist; former student",
+            "Audio File": "aditi_courses_EDUCATION-KNOWLEDGE.mp3",
+            "audio_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Audio/aditi_courses_EDUCATION-KNOWLEDGE.mp3",
+            "audio_caption": "Aditi Bhattacharya, research scientist and former student: On her experiences with coursework as a graduate student in the early 2000s",
+            "audio_rights": "NCBS Archives",
+            "Image File": "Profile - Aditi",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20Aditi.jpg",
+            "image_caption": "Aditi Bhattacharya (second from left). 2004"
+        },
+        {
+            "name": "Kaleem Siddiqi",
+            "organisation": "McGill University",
+            "relevance": "Faculty member",
+            "Audio File": "kaleem_TIFR-brat-conference-room-study_PEOPLE-ORIGIN.mp3",
+            "audio_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Audio/kaleem_TIFR-brat-conference-room-study_PEOPLE-ORIGIN.mp3",
+            "audio_caption": "Kaleem Siddiqi, faculty member at McGill University: Memories of a childhood in the 1970s when he and his sister used the TIFR molecular biology unit conference room as a personal study space since it was sparsely used. ",
+            "audio_rights": "NCBS Archives",
+            "Image File": "Profile - Kaleem Siddiqi",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20Kaleem%20Siddiqi.JPG",
+            "image_caption": "Kaleem Siddiqi (left). 2011",
+            "image_rights": "Courtesy of Siddiqi Family"
+        },
+        {
+            "name": "MS Raghunathan",
+            "organisation": "IIT Bombay",
+            "relevance": "Former faculty at TIFR",
+            "Audio File": "msr_maths-bio-regard_RESEARCH-COLLAB.mp3",
+            "audio_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Audio/msr_maths-bio-regard_RESEARCH-COLLAB.mp3",
+            "audio_caption": "MS Raghunathan, former mathematics faculty member and student, TIFR: Reflections on the collaborations -- or lack, thereof -- between physicists, mathematicians and biologists at TIFR.",
+            "audio_rights": "NCBS Archives",
+            "Image File": "Profile - MS Raghunathan",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20MS%20Raghunathan.jpg",
+            "image_caption": "MS Raghunathan"
+        },
+        {
+            "name": "Vidita Vaidya",
+            "organisation": "TIFR",
+            "relevance": "Faculty",
+            "Audio File": "vidita_ksk-vr-effect_EDUCATION-MENTOR.mp3",
+            "audio_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Audio/vidita_ksk-vr-effect_EDUCATION-MENTOR.mp3",
+            "audio_caption": "Vidita Vaidya, faculty member at TIFR: The influence of KS Krishnan and Veronica Rodrigues when she joined as a young faculty member at TIFR",
+            "audio_rights": "NCBS Archives",
+            "Image File": "Profile - Vidita",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20Vidita.JPG",
+            "image_caption": "Vidita Vaidya. 2012"
+        },
+        {
+            "name": "BJ Rao",
+            "organisation": "TIFR",
+            "relevance": "Faculty",
+            "Audio File": "bjrao_yale-letter-OS_GROWTH-HIRING.mp3",
+            "audio_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Audio/bjrao_yale-letter-OS_GROWTH-HIRING.mp3",
+            "audio_caption": "BJ Rao, a faculty member at TIFR: On his conversation with Obaid Siddiqi regarding a move back to India in the 1980s, and the ensuing correspondence. ",
+            "audio_rights": "NCBS Archives",
+            "Image File": "Profile - BJ Rao",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20BJ%20Rao.JPG",
+            "image_caption": "BJ Rao. 2012"
+        },
+        {
+            "name": "Shobha Jagtap",
+            "organisation": "TIFR",
+            "relevance": "Staff; former administrative staff at the molecular biology unit",
+            "Audio File": "shobha_veronica-memory_EDUCATION-MENTOR.mp3",
+            "audio_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Audio/shobha_veronica-memory_EDUCATION-MENTOR.mp3",
+            "audio_caption": "Shobha Jagtap, administrative assistant in TIFR: Memories of working with Veronica Rodrigues",
+            "audio_rights": "NCBS Archives"
+        },
+        {
+            "name": "Krishanu Ray",
+            "organisation": "TIFR",
+            "relevance": "Faculty",
+            "Audio File": "krishanu_student-interview_EDUCATION-KNOWLEDGE.mp3",
+            "audio_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Audio/krishanu_student-interview_EDUCATION-KNOWLEDGE.mp3",
+            "audio_caption": "Krishanu Ray, faculty member and former PhD student at TIFR: Memories of his PhD interview at TIFR, and comparing it to interviews today",
+            "audio_rights": "NCBS Archives",
+            "Image File": "Profile - Krishanu Ray",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20Krishanu%20Ray.jpg",
+            "image_caption": "Krishanu Ray"
+        },
+        {
+            "name": "Taslimarif Saiyed",
+            "organisation": "NCBS",
+            "relevance": "Director, C-CAMP",
+            "Audio File": "taslim_OS-pencil-hold_EDUCATION-MENTOR.mp3",
+            "audio_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Audio/taslim_OS-pencil-hold_EDUCATION-MENTOR.mp3",
+            "audio_caption": "Taslimarif Saiyed, former NCBS student and current director, C-CAMP: Memories of being a student in Obaid Siddiqi's lab and the art of holding a pencil.",
+            "audio_rights": "NCBS Archives",
+            "Image File": "Profile - Taslimarif Saiyed",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20Taslimarif%20Saiyed.jpg",
+            "image_caption": "Taslimarif Saiyed"
+        },
+        {
+            "name": "Satyajit Mayor",
+            "organisation": "NCBS",
+            "relevance": "One of the first 12 faculty hires at NCBS",
+            "Audio File": "jitu_membrane-cricket_PEOPLE-ORIGIN.mp3",
+            "audio_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Audio/jitu_membrane-cricket_PEOPLE-ORIGIN.mp3",
+            "audio_caption": "Satyajit Mayor, faculty member and current director, NCBS: Reflections from early childhood, family history and a personal and serious interest in cricket.",
+            "audio_rights": "NCBS Archives",
+            "Image File": "Profile - Satyajit Mayor",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20Satyajit%20Mayor.jpg",
+            "image_caption": "Satyajit Mayor. 1998"
+        },
+        {
+            "name": "Ajith Kumar",
+            "organisation": "NCBS",
+            "relevance": "Faculty; MSc Wildlife Program",
+            "Audio File": "ajith_MSc-wildlife-start_RESEARCH-SHIFT.mp3",
+            "audio_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Audio/ajith_MSc-wildlife-start_RESEARCH-SHIFT.mp3",
+            "audio_caption": "Ajith Kumar, NCBS faculty member and co-ordinator of MSc programme in Wildlife Biology: On the origins of the MSc programme in Wildlife Biology at NCBS",
+            "audio_rights": "NCBS Archives",
+            "Image File": "Profile - Ajith Kumar",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20Ajith%20Kumar.jpg",
+            "image_caption": "Ajith Kumar",
+            "image_rights": "Dipti Humraskar"
+        },
+        {
+            "name": "Maithreyi Narasimhan",
+            "organisation": "TIFR",
+            "relevance": "Faculty",
+            "Audio File": "maithreyi_veronica-memory_EDUCATION-MENTOR.mp3",
+            "audio_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Audio/maithreyi_veronica-memory_EDUCATION-MENTOR.mp3",
+            "audio_caption": "Maithreyi Narasaimha, faculty member at TIFR: On the influence of Veronica Rodrigues when she joined as a young faculty at TIFR.",
+            "audio_rights": "NCBS Archives",
+            "Image File": "Profile - Maithreyi",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20Maithreyi.JPG",
+            "image_caption": "Maithreyi Narasimha. 2012"
+        },
+        {
+            "name": "Saurabh Mahajan",
+            "organisation": "NCBS",
+            "relevance": "Student",
+            "Audio File": "saurabh_why-phd-teach_EDUCATION-KNOWLEDGE.mp3",
+            "audio_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Audio/saurabh_why-phd-teach_EDUCATION-KNOWLEDGE.mp3",
+            "audio_caption": "Saurabh Mahajan, current PhD student at NCBS: Thoughts on why he is doing a PhD and the need for a more rigorous education in teaching.",
+            "audio_rights": "NCBS Archives"
+        },
+        {
+            "name": "Uma Ramakrishnan",
+            "organisation": "NCBS",
+            "relevance": "Faculty",
+            "Audio File": "uma_ecology-start-MSc_RESEARCH-SHIFT.mp3",
+            "audio_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Audio/uma_ecology-start-MSc_RESEARCH-SHIFT.mp3",
+            "audio_caption": "Uma Ramakrishnan, faculty member at NCBS: On the start of an MSc programme in wildlife biology and her hiring as one of the first faculty members in ecology and evolution",
+            "audio_rights": "NCBS Archives",
+            "Image File": "Profile - Uma Ramakrishnan",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20Uma%20Ramakrishnan.jpg",
+            "image_caption": "Uma Ramakrishnan",
+            "Image EXTRA WORK TO DO": "Crop, convert to jpg"
+        },
+        {
+            "name": "Anubhab Khan",
+            "organisation": "NCBS",
+            "relevance": "Student",
+            "Audio File": "anubhab_new-student-experience_GROWTH-STUDENT.mp3",
+            "audio_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Audio/anubhab_new-student-experience_GROWTH-STUDENT.mp3",
+            "audio_caption": "Anubhab Khan, current NCBS student: On a few unusual hobbies, and his path to joining NCBS.",
+            "audio_rights": "NCBS Archives"
+        },
+        {
+            "name": "Dilawar Singh",
+            "organisation": "NCBS",
+            "relevance": "Student",
+            "Audio File": "dilawar_middle-class_INTERSECTION-HIERARCHY.mp3",
+            "audio_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Audio/dilawar_middle-class_INTERSECTION-HIERARCHY.mp3",
+            "audio_caption": "Dilawar Singh, current PhD student at NCBS: On feeling the class structure of the student population and faculty at NCBS as soon as he walked in for the first time.",
+            "audio_rights": "NCBS Archives"
+        },
+        {
+            "name": "Debakshi Mallick",
+            "organisation": "NCBS",
+            "relevance": "Student",
+            "Audio File": "debakshi_interview-insectivorous_GROWTH-STUDENT.mp3",
+            "audio_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Audio/debakshi_interview-insectivorous_GROWTH-STUDENT.mp3",
+            "audio_caption": "Debakshi Mallick, current PhD student at NCBS: On her interview prior to entering NCBS.",
+            "audio_rights": "NCBS Archives"
+        },
+        {
+            "name": "R. Sowdhamini",
+            "organisation": "NCBS",
+            "relevance": "One of the first 12 faculty hires at NCBS",
+            "Audio File": "sowdhamini_paper-publishing_RESEARCH-PROCESS.mp3",
+            "audio_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Audio/sowdhamini_paper-publishing_RESEARCH-PROCESS.mp3",
+            "audio_caption": "R Sowdhamini, faculty member at NCBS: On her prolific record of publishing and her work ethic.",
+            "audio_rights": "NCBS Archives",
+            "Image File": "Profile - R Sowdhamini",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20R%20Sowdhamini.jpg",
+            "image_caption": "R Sowdhamini. 1999"
+        },
+        {
+            "name": "Shannon Olsson",
+            "organisation": "NCBS",
+            "relevance": "Faculty",
+            "Audio File": "shannon_india-biodiversity_IDENTITY-INDIA.mp3",
+            "audio_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Audio/shannon_india-biodiversity_IDENTITY-INDIA.mp3",
+            "audio_caption": "Shannon Olsson, faculty member at NCBS: On applying to NCBS, with no connection to India or its local research environment.",
+            "audio_rights": "NCBS Archives",
+            "Image File": "Profile - Shannon Olsson",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20Shannon%20Olsson.jpg",
+            "image_caption": "Shannon Olsson",
+            "Image EXTRA WORK TO DO": "Crop, convert to jpg"
+        },
+        {
+            "name": "Dasaradhi Palakodeti",
+            "organisation": "NCBS",
+            "relevance": "Faculty",
+            "Audio File": "dasaradhi_planaria-intro_RESEARCH-PROCESS.mp3",
+            "audio_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Audio/dasaradhi_planaria-intro_RESEARCH-PROCESS.mp3",
+            "audio_caption": "Dasaradhi Palakodeti, faculty member at InStem: On starting research in India on planaria, and the story behind getting planaria into India",
+            "audio_rights": "NCBS Archives",
+            "Image File": "Profile - Dasaradhi Palakodeti",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20Dasaradhi%20Palakodeti.jpg",
+            "image_caption": "Dasaradhi Palakodeti"
+        },
+        {
+            "name": "Prem Gautam Chandra",
+            "organisation": "NCBS",
+            "relevance": "Staff; in charge of instrumentation division",
+            "Audio File": "gautam_telephone-xchange_GROWTH-STARTUP.mp3",
+            "audio_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Audio/gautam_telephone-xchange_GROWTH-STARTUP.mp3",
+            "audio_caption": "Prem Chandra Gautam, head, Instrumentation Division: On devising a way to build two parallel telephone exchanges with inter-operable numbers, based on his previous knowledge of telephone exchanges.",
+            "audio_rights": "NCBS Archives",
+            "Image File": "Profile - PC Gautam",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20PC%20Gautam.jpg",
+            "image_caption": "PC Gautam (first from right). 2002",
+            "image_rights": "NCBS Archives",
+            "Image EXTRA WORK TO DO": "Crop and use top photo"
+        },
+        {
+            "name": "G Gajendra",
+            "organisation": "NCBS",
+            "relevance": "Staff, fly facility",
+            "Audio File": "gajendra_flyfacility_PEOPLE-ORIGIN.mp3",
+            "audio_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Audio/gajendra_flyfacility_PEOPLE-ORIGIN.mp3",
+            "audio_caption": "G Gajendra, staff member at the Fly Facility: Moving to Bangalore from Kolar district to teach, and then entering NCBS as a security guard before shifting back to science.",
+            "audio_rights": "NCBS Archives",
+            "Image File": "Profile - Gajendra - 1",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20Gajendra%20-%201.JPG",
+            "image_caption": "G Gajendra"
+        },
+        {
+            "name": "Anand Kumar",
+            "organisation": "NCBS",
+            "relevance": "Staff, reception",
+            "Audio File": "anand_reception-start_PEOPLE-ORIGIN.mp3",
+            "audio_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Audio/anand_reception-start_PEOPLE-ORIGIN.mp3",
+            "audio_caption": "Anand Kumar, NCBS staff member and supervisor at the reception: Joining NCBS in the late 1990s after working at a Coca Cola factory nearby.",
+            "audio_rights": "NCBS Archives",
+            "Image File": "Profile - Anand Kumar",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20Anand%20Kumar.JPG",
+            "image_caption": "Anand Kumar"
+        },
+        {
+            "name": "Satyajit Rath",
+            "organisation": "NII",
+            "relevance": "Faculty",
+            "Audio File": "rath_NCBS-breakaway-brand-benchmark_IDENTITY-BRAND.mp3",
+            "audio_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Audio/rath_NCBS-breakaway-brand-benchmark_IDENTITY-BRAND.mp3",
+            "audio_caption": "Satyajit Rath, faculty member at NII: Assessing the effect of NCBS breaking away from TIFR and building a brand for itself.",
+            "audio_rights": "NCBS Archives",
+            "Image File": "Profile - Satyajit Rath",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20Satyajit%20Rath.jpg",
+            "image_caption": "Satyajit Rath ",
+            "image_rights": "NII"
+        },
+        {
+            "name": "GH Mohan",
+            "organisation": "NCBS",
+            "relevance": "Staff, Animal House",
+            "Audio File": "mohan_ncbs-wasteland-no-local_RIPPLE-ISOLATION.mp3",
+            "audio_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Audio/mohan_ncbs-wasteland-no-local_RIPPLE-ISOLATION.mp3",
+            "audio_caption": "GH Mohan, in charge of the animal house at NCBS: On studying at the University of Agricultural Sciences in the early 1990s and being oblivious to the presence of the construction of a new Centre for biological sciences.",
+            "audio_rights": "NCBS Archives",
+            "Image File": "Profile - GH Mohan",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20GH%20Mohan.jpg",
+            "image_caption": "GH Mohan (top row, first from left)"
+        },
+        {
+            "name": "T Eswar",
+            "organisation": "NCBS",
+            "relevance": "Staff, Canteen",
+            "Audio File": "eswar_cook-event_PEOPLE-ORIGIN.mp3",
+            "audio_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Audio/eswar_cook-event_PEOPLE-ORIGIN.mp3",
+            "audio_caption": "T Eswar, head cook, canteen services: Joining the TIFR Centre canteen as an assistant cook and the eventual move to NCBS.",
+            "audio_rights": "NCBS Archives",
+            "Image File": "Profile - Eswar - 1",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20Eswar%20-%201.JPG",
+            "image_caption": "T Eswar "
+        },
+        {
+            "name": "S N Basha",
+            "organisation": "NCBS",
+            "relevance": "Staff, Security",
+            "Audio File": "basha_NGEF-bijapur-NCBS_PEOPLE-ORIGIN.mp3",
+            "audio_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Audio/basha_NGEF-bijapur-NCBS_PEOPLE-ORIGIN.mp3",
+            "audio_caption": "SN Basha, staff member of the NCBS security services: Moving from Bijapur to Bangalore after the Emergency in search of a job, and eventually leading up to NCBS in the late 1990s.",
+            "audio_rights": "NCBS Archives",
+            "Image File": "Profile - SN Basha",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20SN%20Basha.JPG",
+            "image_caption": "SN Basha"
+        },
+        {
+            "name": "H Bhagya",
+            "organisation": "NCBS",
+            "relevance": "Staff, Cleaning Services",
+            "Audio File": "bhagya_work-no-science_PEOPLE-ORIGIN.mp3",
+            "audio_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Audio/bhagya_work-no-science_PEOPLE-ORIGIN.mp3",
+            "audio_caption": "H Bhagya, staff member of the cleaning services at NCBS: On her move to Bangalore after getting married, her path to NCBS, and interaction with the scientific work.",
+            "audio_rights": "NCBS Archives",
+            "Image File": "Profile - Bhagya and Mamtha and Muniraju",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20Bhagya%20and%20Mamtha%20and%20Muniraju.JPG",
+            "image_caption": "H Bhagya (middle)"
+        },
+        {
+            "name": "Villoo Patel",
+            "organisation": "Avesthagen",
+            "relevance": "Former NCBS researcher who started a company at the TIFR Centre campus for NCBS",
+            "Audio File": "villoo_NCBS-start-avesthagen_GROWTH-STARTUP.mp3",
+            "audio_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Audio/villoo_NCBS-start-avesthagen_GROWTH-STARTUP.mp3",
+            "audio_caption": "Villoo Patell, early post doctoral researcher at NCBS and entrepreneur: Reflections on starting a company in NCBS in the mid to late 1990s, and the research environment at the time.",
+            "audio_rights": "NCBS Archives",
+            "Image File": "Profile - Villoo Patell",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20Villoo%20Patell.jpg",
+            "image_caption": "Villoo Patell"
+        },
+        {
+            "name": "R Parvathi",
+            "organisation": "NCBS",
+            "relevance": "Staff, Dolna creche",
+            "Audio File": "dolna-parvathi_oldest-creche-staff_INTERSECTION-GENDER.mp3",
+            "audio_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Audio/dolna-parvathi_oldest-creche-staff_INTERSECTION-GENDER.mp3",
+            "audio_caption": "R Parvathi, Dolna creche caretaker: Joining NCBS and the creche 15+ years ago, and her perception of the place since.",
+            "audio_rights": "NCBS Archives",
+            "Image File": "Profile - parvathi",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20Parvathi.JPG",
+            "image_caption": "R Parvathi (second from left)"
+        },
+        {
+            "name": "Ashok Rao",
+            "organisation": "NCBS",
+            "relevance": "Staff, administrative officer",
+            "Audio File": "ashok_mine-bihar-dae-blr-all-job_PEOPLE-ORIGIN.mp3",
+            "audio_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Audio/ashok_mine-bihar-dae-blr-all-job_PEOPLE-ORIGIN.mp3",
+            "audio_caption": "Ashok Rao, administrative officer: Moving around the country with a parent who worked as a mining engineer for the DAE, and then joining the DAE family himself.",
+            "audio_rights": "NCBS Archives",
+            "Image File": "Profile - Ashok Rao",
+            "image_url": "https://www.ncbs.res.in/ncbs25dev/ncbs_files/theme_8/Peopleplex_Image/Profile%20-%20Ashok%20Rao.JPG",
+            "image_caption": "Ashok Rao (third from left)"
+        }
+    ]
