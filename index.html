@@ -3,7 +3,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
     <title>Torroid</title>
-    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.2.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="d3-tip.css" rel="stylesheet">
     <link rel="stylesheet" href="libs/font-awesome-4.6.3/css/font-awesome.min.css">
     <link type="text/css" rel="stylesheet" href="css/bootstrap.css" />
@@ -89,11 +89,11 @@
                       <li role="separator" class="divider"></li>
                       <li><a href="https://www.ncbs.res.in/ncbs25/sandbox/peopleplex">Peopleplex</a></li>
                       <li role="separator" class="divider"></li>
-                      <li><a href="https://www.ncbs.res.in/ncbs25/sandbox/space-tour">Space Tour</a></li>
+                      <li><a href="https://www.ncbs.res.in/ncbs25/sandbox/space_tour">Space Tour</a></li>
                       <li role="separator" class="divider"></li>
                       <li><a href="https://www.ncbs.res.in/ncbs25/sandbox/timeline">Timeline</a></li>
                       <li role="separator" class="divider"></li>
-                      <li><a href="https://www.ncbs.res.in/ncbs25/sandbox/oralhistory">Oral History</a></li>
+                      <li><a href="https://www.ncbs.res.in/ncbs25/sandbox/oral_history">Oral History</a></li>
                       <li role="separator" class="divider"></li>
                       <li><a href="https://www.ncbs.res.in/ncbs25/sandbox/mosaic">Mosaic template</a></li>
                     </ul>
@@ -317,7 +317,29 @@
 
 
 <script type="text/javascript" src="libs/classie.js"></script>
-         
+         <script type="text/javascript">
+        function scrollEffect(){
+            
+            window.addEventListener('scroll', function(e){
+            var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+                shrinkOn = 25,
+                header = document.querySelector("header");
+            if (distanceY > shrinkOn) {
+                classie.add(header,"smaller");
+                //$("#ncbs-home-text-collapsible").hide();
+            } else {
+                //$("#ncbs-home-text-collapsible").show();
+                if (classie.has(header,"smaller")) {
+                    classie.remove(header,"smaller");
+                }
+            }
+        });
+        };
+
+scrollEffect();
+    
+</script>
+ 
 
 <script type="text/javascript" src="libs/ImageViewer-master/imageviewer.min.js"></script>
   </body>
