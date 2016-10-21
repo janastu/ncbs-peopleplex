@@ -385,7 +385,7 @@
         $container.append(name, org, details);
       }
      if(people[index].image_url){
-        $img = "<img src="+people[index].image_url+">";
+        $img = "<img src="+people[index].image_url+" style='width:100%;height:auto;'>";
         $imgCaption = "<div style='color:#777; font-size: 13px;'>"+people[index].image_caption+"</div>"
         $container.append($img, $imgCaption); 
       }
