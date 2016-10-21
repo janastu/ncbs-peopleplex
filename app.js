@@ -68,7 +68,7 @@
               animationSpeed = getParameterByName('animationSpeed')
               var freezeFrameAt = getParameterByName('lockVertices') == 1 ? 1 : 0
             } else {
-              lcfCode = '[10]157'
+              lcfCode = '[10]154'
               animationSpeed = App.animationSpeedsController.objectAt(0).speed
               var freezeFrameAt = 0
             }
