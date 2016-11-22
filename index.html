@@ -50,12 +50,14 @@
       }
       #chart{
         position: absolute;
-        top:25px;
+        top:75px;
         z-index: 1;
-        width:0px;
-        right:92%;
+        width:100%;
       }
- 
+      #chart svg {
+        position: absolute;
+        right:0px;
+      }
     </style>
   </head>
   <body>
@@ -66,7 +68,7 @@
               <header>
                   <div class="container clearfix">
                       <h1 id="logo">
-                          <a href="#" target="">
+                          <a href="https://www.ncbs.res.in/ncbs25/" target="">
                             <img src="img/Assets/ncbs_logo_introtext.png" alt="LOGO" />
                           </a>
                       </h1>
@@ -102,13 +104,14 @@
             </div>
           </div>
       <div class="row">
-        <div class="col-md-4" style="background-color:rgba(102,102,102,0.2); margin-top:100px;">
-        <h3 class="center-block" style="padding-top:15px; padding-left:25px;"><a href="#/[10]157/0/0">Peopleplex</a> </h3>
+        <div class="col-md-4" style="background-color:rgba(102,102,102,0.2); margin-top:110px;">
+        <h3 class="center-block" style="padding-top:15px; padding-left:25px;">
+          <a href="#/[10]157/0/0">Peopleplex</a> </h3>
 
         <div id="controls">
 
           <p>Peopleplex is an echo chamber filled with interview excerpts of people involved in the early days of NCBS and those interviewed for this exhibit. Click on a node to find out more. Future developments will make meaningful linkages between the nodes.</p>
-          <span class="alert alert-info" role="alert" style="position:relative; top:10px;"> click on the nodes to explore.</span>
+         
         </div>
   </div>
 </div>

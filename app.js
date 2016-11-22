@@ -37,7 +37,7 @@
       });
 
       $(window).resize(function () {
-        App.graph.resize($(window).height(), $(window).width())
+        App.graph.resize($(window).height(), $(window).width()/1.5/*$(window).width() removed to make a smaller container*/)
       });
 
       $("#charge").live('change', function() {
@@ -68,7 +68,7 @@
               animationSpeed = getParameterByName('animationSpeed')
               var freezeFrameAt = getParameterByName('lockVertices') == 1 ? 1 : 0
             } else {
-              lcfCode = '[10]154'
+              lcfCode = '[10]156'
               animationSpeed = App.animationSpeedsController.objectAt(0).speed
               var freezeFrameAt = 0
             }
@@ -212,7 +212,7 @@
     init: function() {
       this._super();
 
-      this.width =  $(window).width()
+      this.width =  $(window).width()/1.5 /*removed to make a smaller container*/ 
       this.height = $(window).height()
       this.rcx = this.width/2 + 110
       this.rcy = this.height/2
@@ -375,7 +375,7 @@
       //$container.append(name, org, details); 
       if(people[index].audio_url){
 
-        $audio = `<audio controls="controls" preload="" autoplay="">\
+        $audio = `<audio controls="controls" preload="metadata" autoplay="true">\
                      Your browser does not support the <code>audio</code> element.\
                      
                      <source src=`+people[index].audio_url+`></audio>`;
