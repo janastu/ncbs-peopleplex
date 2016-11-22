@@ -375,10 +375,7 @@
       //$container.append(name, org, details); 
       if(people[index].audio_url){
 
-        $audio = `<audio controls="controls" preload="metadata" autoplay="true">\
-                     Your browser does not support the <code>audio</code> element.\
-                     
-                     <source src=`+people[index].audio_url+`></audio>`;
+        $audio = '<audio controls="controls" preload="metadata" autoplay="true" style="width:100%;">Your browser does not support the <code>audio</code> element.<source src='+people[index].audio_url+'></audio>';
         $audioCaption = "<div style='color:#777; font-size: 13px;'>"+people[index].audio_caption+"</div>"
                      $container.append(name, org, details, $audio, $audioCaption); 
       } else {
