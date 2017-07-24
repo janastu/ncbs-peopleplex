@@ -220,6 +220,9 @@
       this.numEdges = 0
       this.numVertices = 0
       this.colors = d3.scale.category10().range()
+      //adding the theme colors for new design instead of random
+      //this.colors = ['822d1a', 'f9a01f']
+      console.log(this.colors);
       this.nodes = [] // the node with index 0 is fixed to the center and has a high charge
       this.links = []
       this.lcfStepsAndRepeats = []
@@ -406,6 +409,15 @@
         //extending click event for sidebar
          App.graph.sideBarData(d.index);
         
+      })
+      .on("mouseover", function(d){
+        console.log(d, d.index, "hover event");
+        d3.select(this).attr("r", 10).style("fill", "#f9a01f");
+        App.graph.sideBarData(d.index);
+      })
+      .on("mouseout", function(d){
+        console.log(d, d.index, "hover event");
+        d3.select(this).attr("r", 5.5).style("fill", "#822d1a");
       })
       .call(this.force.drag);
       circles.exit().remove();
