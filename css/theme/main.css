@@ -3,7 +3,9 @@
   text-decoration: none;
 }*/
 
-
+body {
+	overflow: none;
+}
 .image-container{
 	height:600px;
 }

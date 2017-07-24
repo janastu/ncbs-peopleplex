@@ -19,8 +19,8 @@
     <script type="text/javascript" src="People_Tree_v6_2016-09-29.json"></script>
     <style type="text/css">
       body {
-        /*text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;*/
-        background-color: #f4f3e9;
+        
+        background-color: #ffff;
       }
       .range-text {
         width: 25px;
@@ -49,14 +49,17 @@
         z-index: 10;
       }
       #chart{
-        position: absolute;
-        top:75px;
+        position: fixed;
+        top:0px;
         z-index: 1;
         width:100%;
       }
       #chart svg {
         position: absolute;
         right:0px;
+      }
+      body{
+        overflow:hidden;
       }
     </style>
   </head>
@@ -104,7 +107,7 @@
             </div>
           </div>
       <div class="row">
-        <div class="col-md-4" style="background-color:rgba(102,102,102,0.2); margin-top:110px;">
+        <div class="col-md-4" style="">
         <h3 class="center-block" style="padding-top:15px; padding-left:25px;">
           <a href="">Peopleplex</a> </h3>
 
