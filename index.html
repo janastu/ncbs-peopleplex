@@ -49,6 +49,8 @@
         width: 100%;
         padding:25px;
         z-index: 10;
+        position: absolute;
+        top: 51px;
       }
       #chart{
         position: fixed;
@@ -63,6 +65,13 @@
       }
       body{
         overflow:hidden;
+      }
+
+      h3{
+        color: #822d1a;
+      }
+      label{
+        color: #822d1a;
       }
     </style>
   </head>
@@ -189,30 +198,6 @@
 
 
 
-<script type="text/javascript" src="libs/classie.js"></script>
-         <script type="text/javascript">
-        function scrollEffect(){
-            
-            window.addEventListener('scroll', function(e){
-            var distanceY = window.pageYOffset || document.documentElement.scrollTop,
-                shrinkOn = 25,
-                header = document.querySelector("header");
-            if (distanceY > shrinkOn) {
-                classie.add(header,"smaller");
-                //$("#ncbs-home-text-collapsible").hide();
-            } else {
-                //$("#ncbs-home-text-collapsible").show();
-                if (classie.has(header,"smaller")) {
-                    classie.remove(header,"smaller");
-                }
-            }
-        });
-        };
-
-scrollEffect();
-    
-</script>
- 
 
 <script type="text/javascript" src="libs/ImageViewer-master/imageviewer.min.js"></script>
   </body>
