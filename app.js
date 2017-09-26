@@ -375,15 +375,13 @@
       var name = "<h3>"+people[index].name+"</h3>",
       org = "<label>"+people[index].organisation+"</label>",
       details = "<p>"+people[index].relevance+"</p>";
-      //$container.append(name, org, details); 
+      $container.append(name, org, details); 
       if(people[index].audio_url){
 
-        $audio = '<audio controls="controls" preload="metadata" autoplay="true" style="width:100%;">Your browser does not support the <code>audio</code> element.<source src='+people[index].audio_url+'></audio>';
+        $audio = '<audio controls="controls" preload="metadata" autoplay style="width:100%;">Your browser does not support the <code>audio</code> element.<source src='+people[index].audio_url+'></audio>';
         $audioCaption = "<div style='color:#777; font-size: 13px;'>"+people[index].audio_caption+"</div>"
-                     $container.append(name, org, details, $audio, $audioCaption); 
-      } else {
-        $container.append(name, org, details);
-      }
+                     $container.append($audio, $audioCaption); 
+      } 
      if(people[index].image_url){
         $img = "<img src="+people[index].image_url+" style='width:100%;height:auto;'>";
         $imgCaption = "<div style='color:#777; font-size: 13px;'>"+people[index].image_caption+"</div>"
@@ -407,7 +405,7 @@
        $container.append(name, org, details); 
        if(people[index].audio_url){
 
-         $audio = '<audio controls="controls" preload="metadata" autoplay="false" style="width:100%;">Your browser does not support the <code>audio</code> element.<source src='+people[index].audio_url+'></audio>';
+         $audio = '<audio controls="controls" preload="metadata" style="width:100%;">Your browser does not support the <code>audio</code> element.<source src='+people[index].audio_url+'></audio>';
          $audioCaption = "<div style='color:#777; font-size: 13px;'>"+people[index].audio_caption+"</div>"
                       $container.append($audio, $audioCaption); 
        }
