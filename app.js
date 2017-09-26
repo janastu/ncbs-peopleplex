@@ -409,9 +409,7 @@
 
          $audio = '<audio controls="controls" preload="metadata" autoplay="false" style="width:100%;">Your browser does not support the <code>audio</code> element.<source src='+people[index].audio_url+'></audio>';
          $audioCaption = "<div style='color:#777; font-size: 13px;'>"+people[index].audio_caption+"</div>"
-                      $container.append(name, org, details, $audio, $audioCaption); 
-       } else {
-         $container.append(name, org, details);
+                      $container.append($audio, $audioCaption); 
        }
       if(people[index].image_url){
          $img = "<img src="+people[index].image_url+" style='width:100%;height:auto;'>";
