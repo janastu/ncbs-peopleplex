@@ -430,15 +430,23 @@
          App.graph.sideBarData(d.index);
         
       })
+
       .on("mouseover", function(d){
         console.log(d, d.index, "hover event");
         d3.select(this).attr("r", 10).style("fill", "#f9a01f");
+        var g = d3.select(this);
+        var info = g.append('text')
+         .classed('info', true)
+         .attr('x', 20)
+         .attr('y', 10)
+         .text(people[d.index].name);
         App.graph.hoverTansition(d.index);
       })
-     /* .on("mouseout", function(d){
-        console.log(d, d.index, "hover event");
-        d3.select(this).attr("r", 5.5).style("fill", "#822d1a");
-      })*/
+      .on("mouseout", function(d){
+        console.log(d, d.index, "hover out event");
+        d3.select(this).select('text.info').remove();
+        //d3.select(this).attr("r", 5.5).style("fill", "#822d1a");
+      })
       .call(this.force.drag);
       circles.exit().remove();
       
