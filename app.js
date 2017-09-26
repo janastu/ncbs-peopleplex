@@ -219,9 +219,9 @@
       this.radius = 240
       this.numEdges = 0
       this.numVertices = 0
-      this.colors = d3.scale.category10().range()
+      //this.colors = d3.scale.category10().range()
       //adding the theme colors for new design instead of random
-      //this.colors = ['822d1a', 'f9a01f']
+      this.colors = ['#822d1a', '#f9a01f']
       console.log(this.colors);
       this.nodes = [] // the node with index 0 is fixed to the center and has a high charge
       this.links = []
