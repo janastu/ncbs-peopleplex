@@ -376,16 +376,60 @@
        
        var name = "<h3>"+people[index].name+"</h3>",
        org = "<label>"+people[index].organisation+"</label>",
-       details = "<p>"+people[index].relevance+"</p>";
+       details = "<p>"+people[index].relevance+"</p><span></span>";
        $container.append(name, org, details);
        var $img, $imgCaption, $audio, $audioCaption; 
-       if(people[index].audio_url){
 
-         $audio = $('<audio controls="controls" preload="metadata" style="width:100%;">Your browser does not support the <code>audio</code> element.<source src='+people[index].audio_url+'></audio>');
-         $audioCaption = $("<div style='color:#777; font-size: 13px;'>"+people[index].audio_caption+"</div>");
+       //Setup jplayer for audio
+       var cssSelector =  {jPlayer: "#jp_player_1", cssSelectorAncestor: "#jp_selector_1"};
+       var playerOptions = {
+         playlistOptions: {
+           autoPlay: true,
+           enableRemoveControls: true
+         },
+         swfPath: "src/js/jplayer/jplayer",
+         useStateClassSkin: true,
+         smoothPlayBar: true,
+         supplied: "mp3"
+       };
+       window.playlist = [];
+       window.player = new jPlayerPlaylist(cssSelector, playlist, playerOptions);
+       window.playerDOM = $('#media-player-widget');
+       var playerCloseDOM = $('#media-player-widget .close');
+       playerCloseDOM.on('click', function(e){
+           e.preventDefault();
+           player.pause();
+           playerDOM.addClass('hidden');
+       });
+       // handle audio
+       if(people[index].audio_url){
+        var audioTemplate = _.template("<img src='img/sound-icon.svg' data-url='<%=url%>' data-title='<%=title%>'  class='audio-icon'  onmouseover="+"this.src='img/sound-icon-hover.svg'; onmouseout="+"this.src='img/sound-icon.svg';>");
+        
+        var audioPlayerCompiled = audioTemplate({url: people[index].audio_url, title:people[index].audio_caption});
+        var $audioCaption = $("<div class='audio-caption'>"+people[index].audio_caption+"</div>");
+        $container.find('span').append(audioPlayerCompiled, $audioCaption);
+        $container.find('span').on('click', function(e){
+            e.preventDefault();
+            //var currentActive = _.findWhere(ST.narrative, {id: ST.queryParam});
+            var playlist = []
+            playlist.push({title: e.target.dataset.title,
+                           mp3: e.target.dataset.url
+                             });
+            console.log(playlist);
+            if(playerDOM.hasClass('hidden')){
+                playerDOM.removeClass('hidden');
+            }
+            
+            player.setPlaylist(playlist);
+            //console.log(e.target, e.currentTarget, e.target.dataset);
+        });
+        //HTML5 audio deprecated
+         //$audio = $('<audio controls="controls" preload="metadata" style="width:100%;">Your browser does not support the <code>audio</code> element.<source src='+people[index].audio_url+'></audio>');
+         //$audioCaption = $("<div style='color:#777; font-size: 13px;'>"+people[index].audio_caption+"</div>");
 
         // $container.append($audio, $audioCaption); 
        }
+       //Handle image
       if(people[index].image_url){
 
          $img = $("<div class='people-img' data-src='"+people[index].image_url+"'> <img src="+people[index].image_url+" style='width:100%;height:auto;'></div>");
@@ -408,7 +452,7 @@
          });      
        } 
        //append all nodes to the sudebar container DOM
-       $container.append($audio, $audioCaption, $img, $imgCaption); 
+       $container.append($img, $imgCaption); 
        //Handle play pause based on context
        if(ctx === 'click'){
         $audio.trigger('play');

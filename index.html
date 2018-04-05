@@ -87,6 +87,35 @@
         padding:5px;
         display:block;
       }
+      .audio-icon {
+        width:120px;
+        vertical-align: middle;
+        cursor:pointer;
+        padding:5px;
+        float: left;
+      }
+
+      #media-player-widget {
+          top: 0px;
+          right:0px;
+          position: absolute;
+
+      }
+      #media-player-widget .close {
+          color: #ffa008;
+          font-size: 30px;
+          opacity: 1;
+          z-index: 1;
+          position: relative;
+          padding-left: 5px;
+          padding-bottom: 5px;
+      }
+      .audio-caption{
+        color: #777;
+        font-size: 13px;
+        margin-top: 20px;
+        
+      }
       /*====================================================
       Vendor overwrites for lightgallery styles
       ========================================================
@@ -207,6 +236,64 @@
     </div>
     
 
+         <!-- Audio player temmplate and COntainer -->
+    <div class="media-player-container hidden" id="media-player-widget">
+      <button type="button" class="close pull-left" data-dismiss="modal" aria-label="Close" aria-hidden="true">&times;</button>
+     <div id="jp_selector_1" class="jp-video jp-video-270p" role="application" aria-label="media player">
+      <div class="jp-type-playlist">
+        <div id="jp_player_1" class="jp-jplayer" ></div>
+        <div class="jp-gui">
+          <div class="jp-video-play" style="display: none;">
+            <button class="jp-video-play-icon" role="button" tabindex="0">play</button>
+          </div>
+          <div class="jp-interface">
+            <div class="jp-progress">
+              <div class="jp-seek-bar" style="width: 100%;">
+                <div class="jp-play-bar" style="width: 8.41511%;"></div>
+              </div>
+            </div>
+            <div class="jp-current-time" role="timer" aria-label="time"></div>
+            <div class="jp-duration" role="timer" aria-label="duration"></div>
+            <div class="jp-details" style="display: none;">
+              <div class="jp-title" aria-label="title"></div>
+            </div>
+            <div class="jp-controls-holder">
+              <div class="jp-volume-controls">
+                <button class="jp-mute" role="button" tabindex="0">mute</button>
+                <button class="jp-volume-max" role="button" tabindex="0">max volume</button>
+                <div class="jp-volume-bar">
+                  <div class="jp-volume-bar-value" style="width: 80%;"></div>
+                </div>
+              </div>
+              <div class="jp-controls">
+                <button class="jp-previous" role="button" tabindex="0">previous</button>
+                <button class="jp-play" role="button" tabindex="0">play</button>
+                <button class="jp-next" role="button" tabindex="0">next</button>
+                <button class="jp-stop" role="button" tabindex="0">stop</button>
+              </div>
+              <div class="jp-toggles">
+                <button class="jp-repeat" role="button" tabindex="0">repeat</button>
+                <button class="jp-shuffle" role="button" tabindex="0">shuffle</button>
+                <!--button class="jp-full-screen" role="button" tabindex="0">full screen</button-->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="jp-playlist">
+          <ul style="display: block;">
+            <li></li>
+          </ul>
+        </div>
+        <div class="jp-no-solution" style="display: none;">
+          <span>Update Required</span>
+          To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+        </div>
+      </div>
+     </div>
+     </div>
+
+     <!-- Enf=d audio player -->
+
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js" crossorigin="anonymous"></script>
@@ -217,7 +304,7 @@
     <script src="https://d3js.org/d3.v3.min.js"></script>
     <script src="tipsy.js"></script>
     <script type="text/javascript" src="jquery.caret.1.02.min.js"></script>
-
+    <script type="text/javascript" src="libs/underscore-1.5.2-min.js"></script>
     <!-- audio player and slide show -->
       <script type="text/javascript" src="libs/lightGallery-master/dist/js/lightgallery-all.js"></script>
     <script type="text/javascript" src="libs/jplayer/jplayer/jquery.jplayer.min.js"></script>
