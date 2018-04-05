@@ -8,14 +8,22 @@
     <link rel="stylesheet" href="libs/font-awesome-4.6.3/css/font-awesome.min.css">
     <link type="text/css" rel="stylesheet" href="css/bootstrap.css" />
     <link type="text/css" rel="stylesheet" href="css/theme/main.css">
-    <link type="text/css" rel="stylesheet" href="libs/ImageViewer-master/imageviewer.css" />
+
     <!-- ****** faviconit.com favicons ****** <link rel="icon" href="img/Assets/ncbs_logo_header.png" type="image/png" sizes="16x16">-->
      <link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400,400i,700" rel="stylesheet">
      
       <meta name="msapplication-TileColor" content="#FFFFFF">
      
       <!-- ****** faviconit.com favicons ****** -->
-    <script type="text/javascript" src="People_Tree_v6_2016-09-29.json"></script>
+  <script type="text/javascript" src="People_Tree_v6_2016-09-29.json"></script>
+
+    <!-- audio player css-->
+    <link href="libs/jplayer/skin/pink.flag/css/jplayer.pink.flag.css" rel="stylesheet">
+
+    <!-- image slider -->
+      <link href="libs/lightGallery-master/dist/css/lightgallery.min.css" rel="stylesheet">
+  <link href="libs/lightGallery-master/dist/css/lg-transitions.min.css" rel="stylesheet">
+    
     <style type="text/css">
 
       body {
@@ -72,6 +80,33 @@
       }
       label{
         color: #822d1a;
+      }
+
+      #controls a {
+        width:200px;
+        padding:5px;
+        display:block;
+      }
+      /*====================================================
+      Vendor overwrites for lightgallery styles
+      ========================================================
+      */
+      .lg-outer {
+        background-color: rgba(255, 255, 255, 1);
+      }
+
+      .lg-toolbar, .lg-prev, .lg-next {
+        background-color: #fff !important;
+      }
+      .lg-icon{
+        color: #822d1a !important;
+      }
+      .lg-icon:hover {
+        color: #F9A01F !important;
+      }
+      .lg-sub-html{
+        color: #888 !important;
+        background-color: #fff !important;
       }
     </style>
   </head>
@@ -178,9 +213,19 @@
 
     <script src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/1.0.rc.1/handlebars.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/ember.js/1.0.0-pre.2/ember-1.0.0-pre.2.min.js"></script>
+     <!--script src="libs/ember.js-1.0.0/enber.js-1.0.0"></script-->
     <script src="https://d3js.org/d3.v3.min.js"></script>
     <script src="tipsy.js"></script>
     <script type="text/javascript" src="jquery.caret.1.02.min.js"></script>
+
+    <!-- audio player and slide show -->
+      <script type="text/javascript" src="libs/lightGallery-master/dist/js/lightgallery-all.js"></script>
+    <script type="text/javascript" src="libs/jplayer/jplayer/jquery.jplayer.min.js"></script>
+    <!--script type="text/javascript" src="libs/jplayer/jplayer/jquery.jplayer.swf"></script-->
+
+
+      <script src="libs/jplayer/add-on/jplayer.playlist.min.js"></script>
+
    
     <script type="text/javascript" src="app.js"></script>
     <script>
@@ -197,8 +242,5 @@
 </script>
 
 
-
-
-<script type="text/javascript" src="libs/ImageViewer-master/imageviewer.min.js"></script>
   </body>
 </html>

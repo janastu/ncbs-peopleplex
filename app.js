@@ -12,6 +12,7 @@
       }
   }
 
+
   ENV = { RAISE_ON_DEPRECATION: true }
 
   App = Em.Application.create({
@@ -108,7 +109,7 @@
     }),
 
     ApplicationView: Ember.View.extend({
-      templateName: 'application',
+      //templateName: 'application',
       showPermalink: function() {
         App.controls.set('showPermalink', !App.controls.get('showPermalink'))
       },
@@ -367,53 +368,53 @@
     },
     //click event handler to show people tree popup
     //in sidebar
-    sideBarData: function(index) {
-      var $container = $("#controls");
-      //empty the container everytime this function is invoked
-      $container.html('');
-      
-      var name = "<h3>"+people[index].name+"</h3>",
-      org = "<label>"+people[index].organisation+"</label>",
-      details = "<p>"+people[index].relevance+"</p>";
-      $container.append(name, org, details); 
-      if(people[index].audio_url){
 
-        $audio = '<audio controls="controls" preload="metadata" autoplay style="width:100%;">Your browser does not support the <code>audio</code> element.<source src='+people[index].audio_url+'></audio>';
-        $audioCaption = "<div style='color:#777; font-size: 13px;'>"+people[index].audio_caption+"</div>"
-                     $container.append($audio, $audioCaption); 
-      } 
-     if(people[index].image_url){
-        $img = "<img src="+people[index].image_url+" style='width:100%;height:auto;'>";
-        $imgCaption = "<div style='color:#777; font-size: 13px;'>"+people[index].image_caption+"</div>"
-        $container.append($img, $imgCaption); 
-      }
-     
-        
-      
-     
-      
-          
-    },
-    hoverTansition: function (index){
-       var $container = $("#controls");
+    sidebarFactory: function (index, DOMnode, ctx){
+       var $container = DOMnode;
        //empty the container everytime this function is invoked
-       $container.html('');
+       $container.empty();
        
        var name = "<h3>"+people[index].name+"</h3>",
        org = "<label>"+people[index].organisation+"</label>",
        details = "<p>"+people[index].relevance+"</p>";
-       $container.append(name, org, details); 
+       $container.append(name, org, details);
+       var $img, $imgCaption, $audio, $audioCaption; 
        if(people[index].audio_url){
 
-         $audio = '<audio controls="controls" preload="metadata" style="width:100%;">Your browser does not support the <code>audio</code> element.<source src='+people[index].audio_url+'></audio>';
-         $audioCaption = "<div style='color:#777; font-size: 13px;'>"+people[index].audio_caption+"</div>"
-                      $container.append($audio, $audioCaption); 
+         $audio = $('<audio controls="controls" preload="metadata" style="width:100%;">Your browser does not support the <code>audio</code> element.<source src='+people[index].audio_url+'></audio>');
+         $audioCaption = $("<div style='color:#777; font-size: 13px;'>"+people[index].audio_caption+"</div>");
+
+        // $container.append($audio, $audioCaption); 
        }
       if(people[index].image_url){
-         $img = "<img src="+people[index].image_url+" style='width:100%;height:auto;'>";
-         $imgCaption = "<div style='color:#777; font-size: 13px;'>"+people[index].image_caption+"</div>"
-         $container.append($img, $imgCaption); 
-       }       
+
+         $img = $("<div class='people-img' data-src='"+people[index].image_url+"'> <img src="+people[index].image_url+" style='width:100%;height:auto;'></div>");
+         $imgCaption = $("<div style='color:#777; font-size: 13px;'>"+people[index].image_caption+"</div>");
+          
+         $img.on('click', function(){
+          $(this).lightGallery({
+           selector: $img.closest('.people-img'),
+           closable: true,
+           hash:false,
+           share: false,
+           download: false,
+           thumbnail: false,
+           dynamic: true,
+           dynamicEl: [{
+            'src': people[index].image_url,
+            'subHtml': people[index].image_caption
+           }]
+         });   
+         });      
+       } 
+       //append all nodes to the sudebar container DOM
+       $container.append($audio, $audioCaption, $img, $imgCaption); 
+       //Handle play pause based on context
+       if(ctx === 'click'){
+        $audio.trigger('play');
+       
+       }
+      return;
     },
     drawCircles: function() {
       var circles = this.svg.selectAll("circle")
@@ -427,7 +428,8 @@
       .on("click", function(d){
         //extending click event for sidebar
          d3.select(this).attr("r", 10).style("fill", "#333333");
-         App.graph.sideBarData(d.index);
+         App.graph.sidebarFactory(d.index, $('#controls'), 'click');
+         //sidebarFactory(d.index, $('#controls'));
         
       })
 
@@ -440,7 +442,8 @@
          .attr('x', 20)
          .attr('y', 10)
          .text(people[d.index].name);
-        App.graph.hoverTansition(d.index);
+        App.graph.sidebarFactory(d.index, $('#controls'), 'mouse');
+        //sidebarFactory(d.index, $('#controls'));
       })
       .on("mouseout", function(d){
         console.log(d, d.index, "hover out event");
@@ -489,7 +492,7 @@
     }.observes('selected')
   });
 
-  App.ApplicationView.lcfCodes = Ember.Select.extend({
+ App.ApplicationView.lcfCodes = Ember.Select.extend({
     contentBinding: "App.lcfCodesController",
     optionLabelPath: "content.name",
     optionValuePath: "content.code",
