@@ -432,7 +432,7 @@
        //Handle image
       if(people[index].image_url){
 
-         $img = $("<div class='people-img' data-src='"+people[index].image_url+"'> <img src="+people[index].image_url+" style='width:100%;height:auto;'></div>");
+         $img = $("<div class='people-img' data-src='"+people[index].image_url+"'> <img src="+people[index].image_url+" style='width:100%;height:auto;cursor:pointer;'></div>");
          $imgCaption = $("<div style='color:#777; font-size: 13px;'>"+people[index].image_caption+"</div>");
           
          $img.on('click', function(){
