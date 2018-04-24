@@ -8,10 +8,14 @@ if (window.matchMedia("(max-width: 1080px)").matches) {
     wrapper.className = "mobile-detect-wrap";
     var h3 = document.createElement('h1');
     h3.textContent = "Something went wrong";
-    var p = document.createElement('p');
+    var p = document.createElement('h3');
     p.textContent = "This visualization is best viewed in desktop with screen wider than 1080px";
+    var img = document.createElement('img');
+    img.src='img/wreck.png';
+    img.className="img-responsive";
     wrapper.appendChild(h3);
     wrapper.appendChild(p);
+    wrapper.appendChild(img);
     document.body.appendChild(wrapper);
 } else {
     /* The viewport is greater than 700 pixels wide */
