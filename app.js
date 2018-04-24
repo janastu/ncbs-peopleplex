@@ -270,7 +270,7 @@
       this.set('width', width)
       this.set('rcx', width/2 + 110)
       this.set('rcy', height/2)
-      this.force.size([this.rcx*2, height]);
+      this.force.size([this.rcx*1.5, height]);
       this.redraw()
     },
     prevFrame: function() {
