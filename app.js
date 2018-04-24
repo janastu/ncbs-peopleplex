@@ -38,7 +38,7 @@
       });
 
       $(window).resize(function () {
-        App.graph.resize($(window).height(), $(window).width()/1.5/*$(window).width() removed to make a smaller container*/)
+        App.graph.resize($(window).height(), $(window).width()/2);//  $(window).width() removed to make a smaller container*/)
       });
 
       $("#charge").live('change', function() {
@@ -213,7 +213,7 @@
     init: function() {
       this._super();
 
-      this.width =  $(window).width()/1.5 /*removed to make a smaller container*/ 
+      this.width =  $(window).width()/2 /*removed to make a smaller container*/ 
       this.height = $(window).height()
       this.rcx = this.width/2 + 110
       this.rcy = this.height/2
@@ -236,7 +236,7 @@
 
       this.force = d3.layout.force().charge(function(d, i) {
         return i == 0 ? 0 : -App.graph.get('charge')
-      }).size([this.rcx*2, this.height]);
+      }).size([this.rcx*1.5, this.height]);//size([this.rcx*2, this.height]);
 
       //TODO
       this.force.on("tick", function(e) {
