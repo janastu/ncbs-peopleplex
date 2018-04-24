@@ -1,3 +1,22 @@
+// Check for screen size, and load only in
+//screen size greater than 1080px
+
+if (window.matchMedia("(max-width: 1080px)").matches) {
+    /* The viewport is less than, or equal to, 700 pixels wide */
+    console.log(window.innerWidth, 'lesser than 1080');
+    var wrapper = document.createElement('div');
+    wrapper.className = "mobile-detect-wrap";
+    var h3 = document.createElement('h1');
+    h3.textContent = "Something went wrong";
+    var p = document.createElement('p');
+    p.textContent = "This visualization is best viewed in desktop with screen wider than 1080px";
+    wrapper.appendChild(h3);
+    wrapper.appendChild(p);
+    document.body.appendChild(wrapper);
+} else {
+    /* The viewport is greater than 700 pixels wide */
+console.log(window.innerWidth, 'greater than 1080');
+
 (function() {
   //http://stackoverflow.com/a/901144/678708
   function getParameterByName(name) {
@@ -590,3 +609,4 @@
     }.observes('checked')
   })
 })();
+}
